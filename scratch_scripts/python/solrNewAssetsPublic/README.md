@@ -4,6 +4,10 @@ To be tied into nagios or other monitoring system. Checks if source is broken or
 
 The public version is made quite vague with url query (as I have no understanding of your solr syntax). My internal version has an envrionmental and leg query given to user, and the url is constructed from that.
 
+Usage:
+
+./solrNewAssetsPublic.py [-s] -i source.txt 
+
 Use with caution, of course. However, we are only querying solr...hard to see the harm in it.
 
 -ey
