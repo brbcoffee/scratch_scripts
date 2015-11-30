@@ -24,8 +24,8 @@ else:
     }
 
 # our environment returns solr results in Zulu time zone
-tango = timezone('Zulu')
-solr_time = datetime.now(tango)
+zulu = timezone('Zulu')
+solr_time = datetime.now(zulu)
 current_solr_date = solr_time.strftime("%Y-%m-%d")
 
 # hard to anticipate your query here, this variable will require some interpretation
