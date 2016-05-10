@@ -4,6 +4,8 @@
 # It will eventually read from postgres to provide historical data during the game
 
 import json
+import os
+import time
 
 def write_to_json(data_chunk):
     with open('data.json') as feedsjson:
@@ -35,18 +37,6 @@ game_on = 1;
 data["oppponentClass"] = opponent_class
 write_to_json(data)
 
-#json_data = json.dumps(data)
-
-
-#with open('data.json') as feedsjson:
-#    feeds = json.load(feedsjson)
-
-#with open('data.json', 'w') as feedsjson:
-#    entry = json.dumps(data)
-#    feeds.append(entry)
-#    print feeds
-#    json.dump(feeds, feedsjson)
-
 
 while game_on != "over":
     print "Turn %s" % turn
@@ -56,14 +46,19 @@ while game_on != "over":
 
     write_to_json(data)
 
-#    with open('data.json', 'w') as feedsjson:
-#        entry = json.dumps(data)
-#        feeds = json.load(feedsjson)
-#        feeds.append(entry)
-#        json.dump(feeds, feedsjson)
-
-#    with open('data.json', 'w') as f:
-#        json.dump(json_data,f)
-    game_on = raw_input("type 'over' if the game ended").lower()
     if raw_input("Did the opponent complete their turn? (y/n)").lower() == "y":
         turn +=1
+    
+    game_on = raw_input("Type 'over' if the game ended: ").lower()
+
+# code to put into database to come.  for now, just rename the file
+timestr = time.strftime("%Y%m%d-%H%M%S")
+new_filename = "data.json-" + timestr
+#print new_filename
+os.rename("data.json", new_filename)
+
+
+
+
+
+
