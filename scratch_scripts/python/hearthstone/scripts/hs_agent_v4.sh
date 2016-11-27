@@ -19,7 +19,7 @@ while read line ; do
             echo "Game Over - killing above tail"
             time_end=`tail -n1 /Applications/Hearthstone/Logs/Zone.log | cut -d" " -f2`
             echo $time_end
-            mv /Users/ericyoung/github/scratch_scripts/python/hearthstone/scripts/logs_for_processing/* /Users/ericyoung/github/scratch_scripts/python/hearthstone/scripts/old
+#            mv /Users/ericyoung/github/scratch_scripts/python/hearthstone/scripts/logs_for_processing/* /Users/ericyoung/github/scratch_scripts/python/hearthstone/scripts/old
             awk '$2 >= "'$time_start'" && $2 <= "'$time_end'"' /Applications/Hearthstone/Logs/Zone.log | grep -v "DirtyZones\|waiting for zone\|OPPOSING HAND\|FRIENDLY HAND\|GRAVEYARD" > /Users/ericyoung/github/scratch_scripts/python/hearthstone/scripts/logs_for_processing/"scrubbed_log.$date_tag"
             for i in `pgrep -f "Zone.log"`; do kill $i; done
             echo $line >> /Users/ericyoung/github/scratch_scripts/python/hearthstone/scripts/logs_for_processing/"scrubbed_log.$date_tag" 
