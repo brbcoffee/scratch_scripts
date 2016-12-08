@@ -1,3 +1,3 @@
 #!/bin/bash
 
-i=`pgrep tail`; if [ $? -eq 0 ]; then ./hs_agent_v4.sh && echo hi; fi
+i=`pgrep tail`; if [ $? -eq 1 ]; then ./hs_agent_v4.sh; fi

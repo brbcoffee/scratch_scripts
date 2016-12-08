@@ -1,7 +1,6 @@
 #/usr/bin/bash
 
-pgrep tail | xargs kill
-
+echo "starting agent"
 tail -fn0 /Applications/Hearthstone/Logs/Power.log | \
 while read line ; do
         echo "$line" | grep "CREATE_GAME"

@@ -3,6 +3,8 @@
 import sys
 import re
 import json
+import time
+from shutil import copyfile
 from collections import defaultdict
 
 debug = 0
@@ -31,7 +33,7 @@ def identifyPlayersAndOrder(log):
     identifiedMe = 0
     opponent_first = 0
     me_first = 0
-    heroes_list = ['Anduin','Tyrande','Medi','Khad','Liad','Alleria','Garrosh','Thrall','Valeera','Uther','Malfurion','Gul','Rexxar','Jaina']
+    heroes_list = ['Anduin','Tyrande','Medi','Khad','Liad','Alleria','Garrosh','Thrall','Valeera','Uther','Malfurion','Gul\'dan','Rexxar','Jaina']
     for line in log:
         for hero in heroes_list:
             if hero in line:
@@ -66,6 +68,7 @@ identifyPlayersAndOrder(log)
 
 def playAnalysis(log):
     global turn_number
+    global opponents_last
     turn_number = int(0)
     game_started = int(0)
     turn_counter = int(0)
@@ -85,6 +88,7 @@ def playAnalysis(log):
                 opponents_play = re.search('name=(.+?) id=', line).group(1)
                 corrected_turn = turn_number + opponent_first
                 data['opponents_plays'][corrected_turn].append(opponents_play)
+                opponents_last = opponents_play
             except:
                 print "Error"
                 data['opponents_plays'][corrected_turn].append('Error')
@@ -136,19 +140,23 @@ did_i_win = playAnalysis(log)
 
 if did_i_win == 1:
     data['i_win'] = 1
+    outcome = "Win"
     print "I won!"
 else:
-    data['i_win'] = 0 
+    data['i_win'] = 0
+    outcome = "Loss" 
     print "I lost!"
 
-json_file = re.search('logs_for_processing/scrubbed_log.([^,]+)',sys.argv[1]).group(1)
-print json_file
-with open('json_files/json_%s.data' % json_file, 'w') as f:
+game_time = re.search('logs_for_processing/scrubbed_log.([^,]+)',sys.argv[1]).group(1)
+destination_file = "processed_logs/" + my_hero + "_" + outcome + "_" + "vs" + "_" + opponent_hero + "_last=" + opponents_last + "_" + game_time 
+try:
+    copyfile(sys.argv[1], destination_file)
+except:
+    print "log already written"
+
+#json_file = re.search('logs_for_processing/scrubbed_log.([^,]+)',sys.argv[1]).group(1)
+print game_time
+with open('json_files/json_%s.data' % game_time, 'w') as f:
      json.dump(data, f)
-
-
-
-
-
 
 
