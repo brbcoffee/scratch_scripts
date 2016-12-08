@@ -5,6 +5,8 @@ import re
 import json
 from collections import defaultdict
 
+debug = 0
+
 # read in log
 print sys.argv[1]
 with open(sys.argv[1]) as f:
@@ -23,6 +25,8 @@ def identifyPlayersAndOrder(log):
     global my_hero
     global opponent_first
     global me_first
+    global my_turn
+    my_turn = 0
     identifiedOpponent = 0
     identifiedMe = 0
     opponent_first = 0
@@ -41,14 +45,15 @@ def identifyPlayersAndOrder(log):
     print "My hero is: %s" % my_hero
     while me_first == 0 and opponent_first == 0:
         for line in log:
-            if "The Coin" in line:
-                if "player=1" in line:
+            if "NUM_CARDS_DRAWN_THIS_TURN value=4" in line:
+                if "brbcoffee" in line:
                     opponent_first = 1
-                elif "player=2" in line:
+                else:
                     me_first = 1
 
     if opponent_first == 0:
         data['me_first'] = '1'
+        my_turn = 1
         print "I went first."
     else:
         data['me_first'] = '0'
@@ -75,7 +80,7 @@ def playAnalysis(log):
         elif game_started == 0:
             continue
 
-        if "OPPOSING PLAY" in line:
+        if "OPPOSING PLAY" in line and not "->" in line and my_turn == 0:
             try:
                 opponents_play = re.search('name=(.+?) id=', line).group(1)
                 corrected_turn = turn_number + opponent_first
@@ -84,7 +89,7 @@ def playAnalysis(log):
                 print "Error"
                 data['opponents_plays'][corrected_turn].append('Error')
             print "Opponent played: %s on turn %s" % (opponents_play, corrected_turn)
-        if "FRIENDLY PLAY" in line:
+        if "FRIENDLY PLAY" in line and not "->" in line and my_turn == 1:
             try:
                 my_play = re.search('name=(.+?) id=', line).group(1)
                 corrected_turn = turn_number + me_first
@@ -100,21 +105,31 @@ def playAnalysis(log):
 
         if "NUM_CARDS_DRAWN_THIS_TURN value=1" in line and turn_counter == 0:
             turn_counter = 1
-           # print "_________________"
-           # print "1 drawn match so it is still"
-           # print "turn number: %s " %turn_number
-           # print "turn counter and turn counter becomes: %s" %turn_counter
-           # print line
-           # print "__end_______________"
+            if "brbcoffee" in line:
+                my_turn = 1
+            else:
+                my_turn = 0
+            if debug == 1:
+                print "_________________"
+                print "1 drawn match so it is still"
+                print "turn number: %s " %turn_number
+                print "turn counter and turn counter becomes: %s" %turn_counter
+                print line
+                print "__end_______________"
         elif "NUM_CARDS_DRAWN_THIS_TURN value=1" in line and turn_counter == 1:
             turn_counter = 0
             turn_number += 1
-           # print "_________________"
-           # print "1 drawn match so it is now"
-           # print "turn number: %s " %turn_number
-          #  print "and turn counter becomes: %s" %turn_counter
-          #  print line
-          #  print "__end_______________"
+            if "brbcoffee" in line:
+                my_turn = 1
+            else:
+                my_turn = 0
+            if debug == 1:
+                print "_________________"
+                print "1 drawn match so it is now"
+                print "turn number: %s " %turn_number
+                print "and turn counter becomes: %s" %turn_counter
+                print line
+                print "__end_______________"
     return(win)    
 
 did_i_win = playAnalysis(log)
