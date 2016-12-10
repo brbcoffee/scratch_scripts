@@ -33,7 +33,7 @@ def identifyPlayersAndOrder(log):
     identifiedMe = 0
     opponent_first = 0
     me_first = 0
-    heroes_list = ['Anduin','Tyrande','Medi','Khad','Liad','Alleria','Garrosh','Thrall','Valeera','Uther','Malfurion','Gul\'dan','Rexxar','Jaina']
+    heroes_list = ['Anduin','Morgl','Tyrande','Medivh','Khadgar','Muradin','Liadrin','Alleria','Garrosh','Thrall','Valeera','Uther','Malfurion','Gul\'dan','Rexxar','Jaina']
     for line in log:
         for hero in heroes_list:
             if hero in line:
@@ -140,15 +140,44 @@ did_i_win = playAnalysis(log)
 
 if did_i_win == 1:
     data['i_win'] = 1
-    outcome = "Win"
+    outcome = "Won"
     print "I won!"
 else:
     data['i_win'] = 0
-    outcome = "Loss" 
+    outcome = "Lost" 
     print "I lost!"
 
+def hero_translate(name):
+    if (name == "Rexxar") or (name == "Alleria"):
+        return "Hunter"
+    elif (name == "Anduin") or (name == "Tyrande"):
+        return "Priest"
+    elif (name == "Thrall") or (name == "Morgl"):
+        return "Shaman"
+    elif (name == "Jaina") or (name == "Medivh") or (name == "Khadgar"):
+        return "Mage"     
+    elif (name == "Uther") or (name == "Liadrin"):
+        return "Paladin"
+    elif name == "Malfurion":
+        return "Druid"
+    elif (name == "Garrosh") or (name == "Muradin"):
+        return "Warrior"
+    elif name == "Valeera":
+        return "Rogue"
+    elif name == "Gul\'dan":
+        return "Warlock"
+
+
+me = hero_translate(my_hero)
+opponent = hero_translate(opponent_hero)
+
+if opponent_first == 1:
+    my_position = "Second"
+else:
+    my_position = "First"
+
 game_time = re.search('logs_for_processing/scrubbed_log.([^,]+)',sys.argv[1]).group(1)
-destination_file = "processed_logs/" + my_hero + "_" + outcome + "_" + "vs" + "_" + opponent_hero + "_last=" + opponents_last + "_" + game_time 
+destination_file = "processed_logs/" + opponent + "_opponent.I_" + outcome + "_as_" + me + ".I_Went_" + my_position + ".Opponent_last_play=" + opponents_last
 try:
     copyfile(sys.argv[1], destination_file)
 except:
