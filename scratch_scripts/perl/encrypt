@@ -1,0 +1,18 @@
+#!/usr/bin/env perl
+use strict;
+use Crypt::CBC;
+open(my $FH, "<", "/etc/nagios/crypt/.deployKeyPuppet") or die "cannot open deployment key file; $!\n";
+my $key = <$FH>;
+chomp $key;
+
+my $password = $ARGV[0];
+if (!$password) {
+    print "Enter password to encrypt:";
+    chomp($password = <>);
+}
+
+my $cipher = Crypt::CBC->new( -key    => $key,
+                             -cipher => 'Blowfish'
+                            );
+my $crypt = $cipher->encrypt_hex($password);
+print "\n\nEncrypted password = " . $crypt . "\n";
