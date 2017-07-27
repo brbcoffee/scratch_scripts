@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ####my api key - don't touch
-my_api='AIzaSyAOLj5NfPkmhf30gOtsGBYrgCbpRM36-44' #works
+my_api='AIzaSyCKUYeVIeTz2Y9hnGBKeJtq475EQsDNY-w' #works
 #### end don't touch
 
 #key to using api:
@@ -38,11 +38,7 @@ getPlaylist_channelId="UC1M9ArsuMpBNadpjLXZ4o6g"
 
 getPlaylist_part="snippet"
 getPlaylist_channelId="UC1M9ArsuMpBNadpjLXZ4o6g"
-curl "https://www.googleapis.com/youtube/v3/search?key=$my_api&channelId=$getPlaylist_channelId&part=$getPlaylist_part&order=date&maxResults=20"
-
-
-
-
+#curl "https://www.googleapis.com/youtube/v3/search?key=$my_api&channelId=$getPlaylist_channelId&part=$getPlaylist_part&order=date&maxResults=20"
 
 #playlist of one of those people don't touch
 playlist_list_id='LL4kfP9ugDYv_jkiW9poPgOw'
@@ -50,14 +46,19 @@ playlist_part="snippet,contentDetails"
 #curl "https://www.googleapis.com/youtube/v3/playlists?part=$playlist_part&key=$my_api&id=$playlist_list_id&order=date&maxResults=20"
 #### end don't touch
 
-
 ### 
 playlist_part="snippet"
 playlist_list_id='LL4kfP9ugDYv_jkiW9poPgOw'
 #curl "https://www.googleapis.com/youtube/v3/playlistItems?part=$playlist_part&key=$my_api&playlistId=$playlist_list_id&order=date&maxResults=1"
 
 
-
+# get channel id from video id
+video_part="snippet"
+video_list_id='9Ev2c4ZELmI'
+#video_list_id='UOv_AcIyRYE'
+curl "https://www.googleapis.com/youtube/v3/videos?key=$my_api&part=$video_part&id=$video_list_id"
+#to get channel id:
+#./api_queries.sh  | jq .items[].snippet.channelId
 
 
 
