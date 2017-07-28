@@ -9,10 +9,27 @@ from bs4 import BeautifulSoup
 with open('/Users/ericyoung/api/api_key', 'r') as infile:
     my_api_key = infile.read()
 max_results = 5 # 50 costs 600 quota points
-max_comments = 1
+max_comments = 101
 static = "on"
 static = "off"
 debug = 0
+
+class Comment(object):
+#    channel_id = ""
+#    liked_count = ""
+
+    # The class "constructor" - It's actually an initializer 
+    def __init__(self, channel_id, liked_count):
+        self.channel_id = channel_id
+        self.liked_count = liked_count
+
+def make_comment(name, channel_id, liked_count):
+    comment = Comment( channel_id, liked_count)
+    return comment
+
+
+def json_print(string):
+    print json.dumps(string, indent=4)
 
 def retrieve_video_list_from_channel(channel_id):
     # input: original channel id to get recs for
@@ -34,9 +51,7 @@ def retrieve_video_list_from_channel(channel_id):
 
     channel_video_list = []
     for i in results["items"]:
-        for j in i["id"]["videoId"]:
-            print j
-            #channel_video_list.append(i["id"]["videoId"][j]["snippet"])
+        channel_video_list.append(i["id"]["videoId"])   
     #print channel_video_list
     return channel_video_list
 
@@ -45,24 +60,61 @@ def retrieve_top_comment_channel_id_from_videos(video_list):
     # output: comment dump of commentThreads
     # static output: dump of commentThreads
     # static input: output of last non-static query
-    component = "commentThreads"
-    payload = {
-        "key": my_api_key,
-        "part":"snippet,replies",
-        "channelId": channel_id,
-        "order": "relevance",
-        "maxResults": max_comments
-    }
-    # will want to iterate this later
-    if static == "on":
-        results = query_static("username_retrieval_dump")
-    else:
-        results = query_youtube(component, payload, "username_retrieval_dump")
+    max_comments_iterations = max_comments / 100
 
     channel_id_list = []
-    for i in results["items"]:
-        print i["snippet"]["topLevelComment"]
-        #channel_id_list.append(i["snippet"]["topLevelComment"]["snippet"]["authorChannelId"]["value"])
+    if max_comments_iterations < 1:
+        component = "commentThreads"
+        payload = {
+            "key": my_api_key,
+            "part":"snippet,replies",
+            "channelId": channel_id,
+            "order": "relevance",
+            "maxResults": max_comments
+        }
+        if static == "on":
+            results = query_static("username_retrieval_dump")
+        else:
+            results = query_youtube(component, payload, "username_retrieval_dump")
+        i = 0
+        while i < len(results["items"]):
+            #print i["snippet"]["topLevelComment"]
+            channel_id_list.append(results["items"][i]["snippet"]["topLevelComment"]["snippet"]["authorChannelId"]["value"])
+            i += 1
+    else:
+        x = 0
+        next_token = ""
+        while x < max_comments_iterations:
+            component = "commentThreads"
+            payload = {
+                "key": my_api_key,
+                "part":"snippet,replies",
+                "channelId": channel_id,
+                "order": "relevance",
+                "maxResults": "100",
+                "pageToken": next_token
+            }
+            if static == "on":
+                results = query_static("username_retrieval_dump")
+            else:
+                results = query_youtube(component, payload, "username_retrieval_dump")
+            i = 0
+            while i < len(results["items"]):
+                #print i["snippet"]["topLevelComment"]
+                channel_id_list.append(results["items"][i]["snippet"]["topLevelComment"]["snippet"]["authorChannelId"]["value"])
+                i += 1
+            x += 1
+# make comment object:
+#    comment_object_list = []
+##    print type(results["items"][0]["snippet"]["topLevelComment"]["snippet"]["authorChannelId"])
+#    comment_test = make_comment("test", results["items"][0]["snippet"]["topLevelComment"]["snippet"]["authorChannelId"]["value"], results["items"][0]["snippet"]["topLevelComment"]["snippet"]["likeCount"])
+#    print comment_test.liked_count
+#    print comment_test.channel_id
+
+
+    #for i in results["items"]:
+        #print i["snippet"]["topLevelComment"]["snippet"]["authorChannelId"]
+        #json_print(i["snippet"]["topLevelComment"]["snippet"]["likeCount"])
     #print channel_id_list
     return channel_id_list
 
@@ -86,12 +138,9 @@ def retrieve_liked_videos_playlist_from_users(commenter_channel_id_list):
         list_of_liked_video_lists.append(scrape_youtube(url, "liked_videos_from_commentors"))
         if len(list_of_liked_video_lists[-1]) == 0:
             del list_of_liked_video_lists[-1]
-        else:
+        elif debug == 1:
             print "User: %s likes the videos: %s" % (commenter_channel_id, list_of_liked_video_lists[-1])
         #
-
-
-
     if debug == 1:
         print "list of liked video lists: %s" % (list_of_liked_video_lists)
     liked_video_list = []
@@ -105,7 +154,7 @@ def retrieve_recommended_channels(liked_video_list):
     # output: channel ids of these videos
     # static output: dump of commentThreads
     # static input: output of last non-static query
-    print "\nretrieving recommended channels"
+    print "retrieving recommended channels"
     recommended_channel_list = []
     for video_id in liked_video_list:
         component = "videos"
@@ -192,5 +241,13 @@ if __name__ == "__main__":
     liked_video_list = retrieve_liked_videos_playlist_from_users(commenter_channel_id_list)
     print "querying youtube for retrieve_recommended_channels"
     recommended_channel_list = retrieve_recommended_channels(liked_video_list)
+    recommended_channel_dict = {}
     for recommended_channel in recommended_channel_list:
-        print "Channel %s recommended %s times" % (recommended_channel, recommended_channel_list.count(recommended_channel))
+        if recommended_channel in recommended_channel_dict:
+            recommended_channel_dict[recommended_channel] += 1
+        else:
+            recommended_channel_dict[recommended_channel] = 1
+    for w in sorted(recommended_channel_dict, key=recommended_channel_dict.get, reverse=True):
+        print "Channel %s recommended %s times." % (w, recommended_channel_dict[w])
+    #for recommended_channel in recommended_channel_dict:     
+    #    print "Channel %s recommended %s times" % (recommended_channel, recommended_channel_dict[recommended_channel])

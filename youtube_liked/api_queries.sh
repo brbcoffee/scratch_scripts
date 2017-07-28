@@ -23,11 +23,13 @@ getComments_videoId='UOv_AcIyRYE'
 ####get comments on a video and iterate - don't touch
 getComments_part="snippet,replies"
 getComments_videoId='ggiMGaq7Ue4'
-r=`curl "https://www.googleapis.com/youtube/v3/commentThreads?key=$my_api&part=$getComments_part&videoId=$getComments_videoId&order=relevance&maxResults=100"`
+r=`curl "https://www.googleapis.com/youtube/v3/commentThreads?key=$my_api&part=$getComments_part&videoId=$getComments_videoId&order=relevance&maxResults=1"`
 echo $r
-#next_token=`echo $r | jq -r '.nextPageToken'`
-#echo $next_token
-#next=curl \"https://www.googleapis.com/youtube/v3/commentThreads?key=$my_api&part=$getComments_part&videoId=$getComments_videoId&order=relevance&maxResults=1&pageToken=$next_token\""
+next_token=`echo $r | jq -r '.nextPageToken'`
+echo $next_token
+next_token=""
+next=`curl "https://www.googleapis.com/youtube/v3/commentThreads?key=$my_api&part=$getComments_part&videoId=$getComments_videoId&order=relevance&maxResults=1&pageToken=$next_token"`
+echo $next
 #next=`curl "https://www.googleapis.com/youtube/v3/commentThreads?key=$my_api&part=$getComments_part&videoId=$getComments_videoId&order=relevance&maxResults=1&pageToken=$next_token"`
 #### don't touch
 
