@@ -22,9 +22,11 @@ getComments_videoId='UOv_AcIyRYE'
 
 ####get comments on a video and iterate - don't touch
 getComments_part="snippet,replies"
-getComments_videoId='UOv_AcIyRYE'
-#r=`curl "https://www.googleapis.com/youtube/v3/commentThreads?key=$my_api&part=$getComments_part&videoId=$getComments_videoId&order=relevance&maxResults=1"`
+getComments_videoId='ggiMGaq7Ue4'
+r=`curl "https://www.googleapis.com/youtube/v3/commentThreads?key=$my_api&part=$getComments_part&videoId=$getComments_videoId&order=relevance&maxResults=100"`
+echo $r
 #next_token=`echo $r | jq -r '.nextPageToken'`
+#echo $next_token
 #next=curl \"https://www.googleapis.com/youtube/v3/commentThreads?key=$my_api&part=$getComments_part&videoId=$getComments_videoId&order=relevance&maxResults=1&pageToken=$next_token\""
 #next=`curl "https://www.googleapis.com/youtube/v3/commentThreads?key=$my_api&part=$getComments_part&videoId=$getComments_videoId&order=relevance&maxResults=1&pageToken=$next_token"`
 #### don't touch
@@ -56,7 +58,7 @@ playlist_list_id='LL4kfP9ugDYv_jkiW9poPgOw'
 video_part="snippet"
 video_list_id='9Ev2c4ZELmI'
 #video_list_id='UOv_AcIyRYE'
-curl "https://www.googleapis.com/youtube/v3/videos?key=$my_api&part=$video_part&id=$video_list_id"
+#curl "https://www.googleapis.com/youtube/v3/videos?key=$my_api&part=$video_part&id=$video_list_id"
 #to get channel id:
 #./api_queries.sh  | jq .items[].snippet.channelId
 
