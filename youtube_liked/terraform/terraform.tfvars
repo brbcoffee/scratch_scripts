@@ -1,0 +1,13 @@
+region    = "us-west-2"
+region-az = "west"
+subdomain = "usw2"
+stack     = "brbcoffee"
+env       = "brbcoffee"
+
+vpc-cidr  = "192.168.0.0/22"
+public-a  = "192.168.0.0/25"
+public-b  = "192.168.1.0/25"
+public-c  = "192.168.2.0/25"
+private-a = "192.168.0.0/25"
+private-b = "192.168.1.0/25"
+private-c = "192.168.2.0/25"
