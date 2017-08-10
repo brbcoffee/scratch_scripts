@@ -43,7 +43,7 @@ resource "aws_security_group" "internal_access" {
 }
 
 resource "aws_instance" "puppetmaster" {
-  ami           = "ami-0b01e173"
+  ami           = "ami-91b95ae9"
   instance_type = "t2.micro"
   key_name = "devenv-key"
   security_groups = [ "ssh_access", "internal_access" ]
@@ -53,12 +53,12 @@ resource "aws_instance" "puppetmaster" {
   connection {
     type = "ssh"
     user = "ec2-user"
-    private_key = "${file("${var.private_key_path}")}" 
+    private_key = "${file("${var.private_key_path}")}"
   }
 
   provisioner "file" {
     source = "poop"
-    destination = "/var/tmp/poop"
+    destination = "/etc/puppet/poop"
 
   }
 
