@@ -11,3 +11,4 @@ variable "domain-name" {
 variable "env" {}
 variable "stack" {}
 variable "region-az" {}
+variable "private_key_path" {}

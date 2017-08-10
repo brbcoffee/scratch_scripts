@@ -3,6 +3,7 @@ region-az = "west"
 subdomain = "usw2"
 stack     = "brbcoffee"
 env       = "brbcoffee"
+private_key_path = ".ssh/devenv-key.pem"
 
 vpc-cidr  = "192.168.0.0/22"
 public-a  = "192.168.0.0/25"
