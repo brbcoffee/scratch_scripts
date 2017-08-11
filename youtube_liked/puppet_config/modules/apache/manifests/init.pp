@@ -5,7 +5,7 @@ class apache (
     notify {"in apache":}
     package { 'httpd':
         name => $apachename,
-        ensure => 'installed',
+        ensure => 'running',
 	}
 
 }
