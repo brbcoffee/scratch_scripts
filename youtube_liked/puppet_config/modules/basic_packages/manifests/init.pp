@@ -14,7 +14,7 @@ class basic_packages {
     package { 'telnet.x86_64':
         ensure => 'installed',
     }
-    package { 'epel-release':
-        ensure => 'installed',
-    }
+#    package { 'epel-release':
+#        ensure => 'installed',
+#    }
 }
