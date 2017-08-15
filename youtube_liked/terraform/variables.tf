@@ -12,3 +12,4 @@ variable "env" {}
 variable "stack" {}
 variable "region-az" {}
 variable "private_key_path" {}
+#variable "ec2_linux_ami_id" {}

@@ -91,10 +91,46 @@ resource "aws_instance" "webserver" {
       "/var/tmp/run_puppet.sh"
     ]
   }
-
-
-
 }
+
+resource "aws_instance" "nagios_server" {
+  ami           = "ami-f78a678f"
+  instance_type = "t2.micro"
+  security_groups = [ "${aws_security_group.ssh_access.id}", "${aws_security_group.internal_access.id}" ]
+  subnet_id     = "subnet-401d891b"
+
+  connection {
+    type = "ssh"
+    user = "ec2-user"
+    private_key = "${file("${var.private_key_path}")}"
+  }
+
+  provisioner "file" {
+    source = "provision_scripts/run_puppet.sh"
+    destination = "/var/tmp/run_puppet.sh"
+  }
+  provisioner "file" {
+    source = ".ssh/devenv-key.pem"
+    destination = "/var/tmp/key"
+  }
+  provisioner "remote-exec" {
+    inline = [
+      "chmod +x /var/tmp/run_puppet.sh",
+      "chmod 400 /var/tmp/key",
+      "/var/tmp/run_puppet.sh"
+    ]
+  }
+}
+
+#to be used for new ami creation
+#resource "aws_instance" "basic_ami" {
+#  ami           = "${data.aws_ami.ec2-linux.id}"
+#  instance_type = "t2.micro"
+#  key_name = "devenv-key"
+#  security_groups = [ "${aws_security_group.ssh_access.id}", "${aws_security_group.internal_access.id}" ]
+#  subnet_id     = "subnet-401d891b"
+
+#}
 
 #resource "aws_s3_bucket" "example-bucket" {
 #  bucket = "example-bucket-us-west-2-terraform"
