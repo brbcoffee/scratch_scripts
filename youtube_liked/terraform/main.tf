@@ -108,6 +108,10 @@ resource "aws_instance" "webserver" {
     source = ".ssh/git"
     destination = "/var/tmp/git"
   }
+  provisioner "file" {
+    source = "provision_scripts/git_connect.sh"
+    destination = "/var/tmp/git_connect.sh"
+  }
   provisioner "remote-exec" {
     inline = [
       "chmod +x /var/tmp/run_puppet.sh",
@@ -115,7 +119,9 @@ resource "aws_instance" "webserver" {
       "/var/tmp/run_puppet.sh",
       "chmod +x /var/tmp/mount_vol.sh",
       "chmod 400 /var/tmp/git",
-      "/var/tmp/mount_vol.sh",      
+      "/var/tmp/mount_vol.sh", 
+      "chmod +x /var/tmp/git_connect.sh",
+      "/var/tmp/git_connect.sh",      
     ]
   }
 }
