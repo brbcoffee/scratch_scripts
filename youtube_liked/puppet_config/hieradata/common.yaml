@@ -1,4 +1,12 @@
 ---
 
+nagios_client_info: 'common'
+#nagios_client_info:
+#    - '%{role}_role'
+#    - '%{environment}_env'
+#    - '%{operatingsystem}_os'
+#    - 'common_host_puppetized'
+
 classes:
     - 'basic_packages'
+    - 'nagios::client'

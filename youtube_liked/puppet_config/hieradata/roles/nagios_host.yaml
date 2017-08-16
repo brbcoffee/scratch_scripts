@@ -1,8 +1,40 @@
 ---
 
+nagiosPuppetizedPath: '/etc/nagios/puppetized'
+
 classes:
     - 'yum'
+    - 'nagios::server'
+    - 'nagios::add_object'
+    - 'nagios::create_resources'
 
 packages_to_install:
     - 'nagios'
     - 'nrpe'
+
+
+#nagios config information
+nagios_hosttemplates_define_config:
+  generic_host_puppetized: {}
+
+machine_health_snmp_monitors:
+  check_cpu_by_snmp:
+    use: 'query_every_1_minute'
+    hostgroup_name: 'common'
+    check_command: 'check_cpu_by_snmp'
+    command_line: "/usr/lib/nagios/plugins/puppet_scripts/check_cpu_by_snmp_linux -I $HOSTADDRESS$ -p 161 -t 10 -r 1 -i 60 -w 95 -c 100 -C"
+    service_description: "check_cpu_by_snmp"
+    servicegroups: 'common'
+    contact_groups: 'common'
+
+nagios_servicetemplates:
+  query_every_1_minute:
+      normal_check_interval: '1'   
+      retry_check_interval:        '1'
+      active_checks_enabled:      '1' 
+
+nagios_contactgroups:
+    common: {}
+
+nagios_hostgroups_servicegroups_hosttemplates:
+    common: {} 
