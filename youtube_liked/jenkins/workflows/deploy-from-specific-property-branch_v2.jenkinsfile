@@ -1,0 +1,144 @@
+node {
+  try {
+    def clearWorkspaceBeforeRun = params['CLEAR_WORKSPACE_BEFORE_RUN']
+    def branchName = params['BRANCH_NAME']
+    def runTests = params['RUN_TESTS']
+    def deploymentEnvironment = params['DEPLOYMENT_ENVIRONMENT']
+    
+  
+    def mvnHome
+    stage('Checkout Code') {
+        if(branchName == null) {
+          echo "Warning, branch name is null. Falling back to branch: dev"
+          branchName = "dev"
+        }
+        echo "Building branch: ${branchName}"
+	    if(clearWorkspaceBeforeRun) {
+          echo "Clearing workspace!!!"
+          sh 'rm -rf * ; rm -rf .git'
+        }
+    
+//shallow checkout per udt-2
+      checkout([$class: 'GitSCM', branches: [[name: "*/${branchName}"]],
+      doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'CloneOption', noTags: true, reference: '', shallow: true]], submoduleCfg: [],
+      userRemoteConfigs: [[url: 'git@gitlab.piksel.com:att-uverse-com/nextgen-main.git']]])
+
+
+//        checkout([$class: 'GitSCM', branches: [[name: "*/${branchName}"]], 
+//        doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], 
+//        userRemoteConfigs: [[url: 'git@gitlab.piksel.com:att-uverse-com/nextgen-main.git']]])
+        
+        dir ('parent') { 
+            pom = readMavenPom file: 'pom.xml'
+            currentBuild.description = "Build version: " + pom.version + " deployed to " + deploymentEnvironment
+        }
+        
+    }
+    stage('Build') {
+        /* Call the Maven build without tests. */
+//TEMP        mvn "clean install -DskipTests -f nextgen-build/pom.xml"
+
+    }
+    stage('Test') {
+      if(runTests){
+        mvn "test -U -Denv=integration  -f nextgen-build/pom.xml -Dmaven.test.failure.ignore -Dmaven.install.skip=true findbugs:findbugs"
+      } else {
+        echo "Skipping tests"
+      }
+    }
+         
+    stage('Publish Test Results') {
+        // Publish testng result from xml: **/testng-results.xml
+      if(runTests){
+        step([$class: 'Publisher'])
+      } else {
+        echo "Skipping test result publishing as no tests were run"
+      }
+    }
+    
+    stage('Upload Snapshot to Nexus') {
+/*TEMP        switch(deploymentEnvironment) {
+            case 'DEV_A':
+                mvn "clean deploy -U -Dmaven.test.skip=true -Dmaven.install.skip=true -f nextgen-build/pom.xml -Denv=dev"
+                break
+            case 'TEST_A':
+            case 'TEST_B':
+                mvn "clean deploy -U -Dmaven.test.skip=true -Dmaven.install.skip=true -f nextgen-build/pom.xml -Denv=stage"
+                break
+            default:
+                echo "No valid environment selected for deployment. (Supported envs: DEV_A, TEST_A, TEST_B)"
+                break            
+        }
+*/        
+    }
+    
+    stage('Deploy to Test Environment') {
+
+        artifactList = params['ARTIFACTS_TO_DEPLOY'].replaceAll(',',' ') //Hack as the dynamic axis plugin apparently only likes spaces as delimiters
+        propertiesBranch = params['PROPERTIES_BRANCH']
+        switch(deploymentEnvironment) {
+            case 'DEV_A':
+                echo "Deployment to DEV_A"
+                deploy('div', 'a', artifactList, propertiesBranch)
+                break
+            case 'TEST_A':
+                echo "Deployment to TEST_A"
+                deploy('tiv', 'a', artifactList, propertiesBranch)
+                break
+            case 'TEST_B':
+                echo "Deployment to TEST_B"
+                deploy('tiv', 'b', artifactList, propertiesBranch)
+                break
+            default:
+                echo "No valid environment selected for deployment. (Supported envs: DEV_A, TEST_A, TEST_B)"
+                break            
+        }
+
+    }
+    
+    
+  } catch(e) {
+    currentBuild.result = "FAILED"
+    notifyFailed()
+    throw e
+  }
+}
+
+void mvn(def args) {          
+      mvnHome = tool 'Maven 3'    
+      sh "${mvnHome}/bin/mvn ${args}"
+}
+
+def notifyFailed() {
+  def emailRecipients = params['EMAIL_RECIPIENTS']
+  echo "Sending failed email to: ${emailRecipients}"
+  emailext attachLog: true, 
+    to: "${emailRecipients}" ,
+    subject: "Build failed in Jenkins: '${env.JOB_NAME} [${env.BUILD_NUMBER}]'", 
+    body: """FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':
+        Check console output at '${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]"""
+
+}
+
+def notifySuccess() {
+  def emailRecipients = params['EMAIL_RECIPIENTS']
+  echo "Sending success email to: ${emailRecipients}"
+  // TODO include branch, version and target environment
+  
+  emailext attachLog: true, 
+    to: "${emailRecipients}" ,
+    subject: "Build success in Jenkins: '${env.JOB_NAME} [${env.BUILD_NUMBER}]'", 
+    body: """FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':
+        Check console output at '${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]"""
+
+}
+
+void deploy(def env, def leg, def artifactList, def propertiesBranch) {
+    def myList = artifactList.tokenize()
+	for (int i = 0; i < myList.size(); i++) {
+	    def artifact = myList.get(i)
+        echo "Deploying ${pom.version} version of following artifacts: ${artifact} to ${env} ${leg}. dir: ${jenkins_scripts}"
+	    sh "${jenkins_scripts}/deploy_tool_wrapperV2.sh -e ${env} -l ${leg} -v ${pom.version} -a ${artifact} -p ${propertiesBranch}"
+	}
+
+}
