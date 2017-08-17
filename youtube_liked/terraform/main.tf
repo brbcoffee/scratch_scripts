@@ -257,14 +257,15 @@ resource "aws_instance" "jenkins_server" {
   }
 }
 
-resource "aws_instance" "yt_script_worker01" {
+resource "aws_spot_instance_request" "yt_script_worker01" {
   ami           = "ami-0cb95574"
-  instance_type = "t2.micro"
+  spot_price    = "0.02"
+  instance_type = "m3.medium"
   vpc_security_group_ids = [ "${aws_security_group.ssh_access.id}", "${aws_security_group.internal_access.id}" ]
   subnet_id     = "subnet-401d891b"
 
   tags {
-    Name = "yt_script_worker01"
+    Name = "yt_script_worker01_spot"
   }
 
   connection {
@@ -273,95 +274,95 @@ resource "aws_instance" "yt_script_worker01" {
     private_key = "${file("${var.private_key_path}")}"
   }
 
-  provisioner "file" {
-    source = "provision_scripts/run_puppet.sh"
-    destination = "/var/tmp/run_puppet.sh"
-  }
-  provisioner "file" {
-    source = ".ssh/devenv-key.pem"
-    destination = "/var/tmp/key"
-  }
-  provisioner "file" {
-    source = ".ssh/git"
-    destination = "/var/tmp/git"
-  }
-  provisioner "file" {
-    source = "provision_scripts/mount_vol_and_git.sh"
-    destination = "/var/tmp/mount_vol_and_git.sh"
-  }
-  provisioner "remote-exec" {
-    inline = [
-      "chmod +x /var/tmp/run_puppet.sh",
-      "chmod 400 /var/tmp/key",
-      "/var/tmp/run_puppet.sh",
-      "chmod +x /var/tmp/mount_vol_and_git.sh",
-      "/var/tmp/mount_vol_and_git.sh",     
-    ]
-  }
+  # provisioner "file" {
+  #   source = "provision_scripts/run_puppet.sh"
+  #   destination = "/var/tmp/run_puppet.sh"
+  # }
+  # provisioner "file" {
+  #   source = ".ssh/devenv-key.pem"
+  #   destination = "/var/tmp/key"
+  # }
+  # provisioner "file" {
+  #   source = ".ssh/git"
+  #   destination = "/var/tmp/git"
+  # }
+  # provisioner "file" {
+  #   source = "provision_scripts/mount_vol_and_git.sh"
+  #   destination = "/var/tmp/mount_vol_and_git.sh"
+  # }
+  # provisioner "remote-exec" {
+  #   inline = [
+  #     "chmod +x /var/tmp/run_puppet.sh",
+  #     "chmod 400 /var/tmp/key",
+  #     "/var/tmp/run_puppet.sh",
+  #     "chmod +x /var/tmp/mount_vol_and_git.sh",
+  #     "/var/tmp/mount_vol_and_git.sh",     
+  #   ]
+  # }
 }
 
-resource "aws_instance" "yt_script_worker02" {
-  ami           = "ami-0cb95574"
-  instance_type = "t2.micro"
-  vpc_security_group_ids = [ "${aws_security_group.ssh_access.id}", "${aws_security_group.internal_access.id}" ]
-  subnet_id     = "subnet-401d891b"
+# resource "aws_instance" "yt_script_worker02" {
+#   ami           = "ami-0cb95574"
+#   instance_type = "t2.micro"
+#   vpc_security_group_ids = [ "${aws_security_group.ssh_access.id}", "${aws_security_group.internal_access.id}" ]
+#   subnet_id     = "subnet-401d891b"
 
-  tags {
-    Name = "yt_script_worker02"
-  }
+#   tags {
+#     Name = "yt_script_worker02"
+#   }
 
-  connection {
-    type = "ssh"
-    user = "ec2-user"
-    private_key = "${file("${var.private_key_path}")}"
-  }
+#   connection {
+#     type = "ssh"
+#     user = "ec2-user"
+#     private_key = "${file("${var.private_key_path}")}"
+#   }
 
-  provisioner "file" {
-    source = "provision_scripts/run_puppet.sh"
-    destination = "/var/tmp/run_puppet.sh"
-  }
-  provisioner "file" {
-    source = ".ssh/devenv-key.pem"
-    destination = "/var/tmp/key"
-  }
-  provisioner "file" {
-    source = ".ssh/git"
-    destination = "/var/tmp/git"
-  }
-  provisioner "file" {
-    source = "provision_scripts/mount_vol_and_git.sh"
-    destination = "/var/tmp/mount_vol_and_git.sh"
-  }
-  provisioner "remote-exec" {
-    inline = [
-      "chmod +x /var/tmp/run_puppet.sh",
-      "chmod 400 /var/tmp/key",
-      "/var/tmp/run_puppet.sh",
-      "chmod +x /var/tmp/mount_vol_and_git.sh",
-      "/var/tmp/mount_vol_and_git.sh",     
-    ]
-  }
-}
-
-
-resource "aws_elb" "worker_elb" {
-  name               = "worker-elb"
-  availability_zones =  ["us-west-2a", "us-west-2b", "us-west-2c"]
+#   provisioner "file" {
+#     source = "provision_scripts/run_puppet.sh"
+#     destination = "/var/tmp/run_puppet.sh"
+#   }
+#   provisioner "file" {
+#     source = ".ssh/devenv-key.pem"
+#     destination = "/var/tmp/key"
+#   }
+#   provisioner "file" {
+#     source = ".ssh/git"
+#     destination = "/var/tmp/git"
+#   }
+#   provisioner "file" {
+#     source = "provision_scripts/mount_vol_and_git.sh"
+#     destination = "/var/tmp/mount_vol_and_git.sh"
+#   }
+#   provisioner "remote-exec" {
+#     inline = [
+#       "chmod +x /var/tmp/run_puppet.sh",
+#       "chmod 400 /var/tmp/key",
+#       "/var/tmp/run_puppet.sh",
+#       "chmod +x /var/tmp/mount_vol_and_git.sh",
+#       "/var/tmp/mount_vol_and_git.sh",     
+#     ]
+#   }
+# }
 
 
-  listener {
-    instance_port     = 8000
-    instance_protocol = "http"
-    lb_port           = 80
-    lb_protocol       = "http"
-  }
+# resource "aws_elb" "worker_elb" {
+#   name               = "worker-elb"
+#   availability_zones =  ["us-west-2a", "us-west-2b", "us-west-2c"]
 
-  instances                   = ["${aws_instance.yt_script_worker01.id}", "${aws_instance.yt_script_worker02.id}"]
 
-  tags {
-    Name = "worker_elb"
-  }
-}
+#   listener {
+#     instance_port     = 8000
+#     instance_protocol = "http"
+#     lb_port           = 80
+#     lb_protocol       = "http"
+#   }
+
+#   instances                   = ["${aws_spot_instance_request.yt_script_worker01.id}"]
+
+#   tags {
+#     Name = "worker_elb"
+#   }
+# }
 
 
 # to be used for new ami creation
