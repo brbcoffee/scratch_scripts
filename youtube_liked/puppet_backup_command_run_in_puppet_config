@@ -1,0 +1,1 @@
+scp -i ../terraform/.ssh/devenv-key.pem -pr ec2-user@34.209.214.144:/etc/puppet/* .

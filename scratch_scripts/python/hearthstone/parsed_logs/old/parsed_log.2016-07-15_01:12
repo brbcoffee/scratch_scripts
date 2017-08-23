@@ -1,0 +1,618 @@
+D 01:12:36.9023190 GameState.DebugPrintPower() - TAG_CHANGE Entity=Chronos tag=MULLIGAN_STATE value=DEALING
+D 01:12:36.9048140 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=8 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:12:36.9181130 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=28 cardId= type=INVALID zone=DECK zonePos=1 player=1] to OPPOSING DECK
+D 01:12:36.9346830 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=9 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:12:36.9511160 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=19 cardId= type=INVALID zone=DECK zonePos=2 player=1] to OPPOSING DECK
+D 01:12:36.9669200 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=33 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:12:36.9828710 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=5 cardId= type=INVALID zone=DECK zonePos=3 player=1] to OPPOSING DECK
+D 01:12:37.4018580 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=MULLIGAN_STATE value=DEALING
+D 01:12:37.8021710 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:12:37.8025110 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:12:37.8026260 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:12:37.8028840 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:12:38.5542830 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Swipe id=37 zone=HAND zonePos=0 cardId=CS2_012 player=2] to FRIENDLY HAND
+D 01:12:38.5682930 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Living Roots id=93 zone=DECK zonePos=1 cardId=AT_037 player=2] to FRIENDLY DECK
+D 01:12:38.5863310 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mulch id=41 zone=HAND zonePos=0 cardId=AT_044 player=2] to FRIENDLY HAND
+D 01:12:38.6012830 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Swipe id=69 zone=DECK zonePos=2 cardId=CS2_012 player=2] to FRIENDLY DECK
+D 01:12:38.6198810 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Raven Idol id=34 zone=HAND zonePos=0 cardId=LOE_115 player=2] to FRIENDLY HAND
+D 01:12:38.6349650 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Nourish id=77 zone=DECK zonePos=3 cardId=EX1_164 player=2] to FRIENDLY DECK
+D 01:12:44.2706270 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Nourish id=77 zone=HAND zonePos=0 cardId=EX1_164 player=2] to FRIENDLY HAND
+D 01:12:48.6064320 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Raven Idol id=34 zone=HAND zonePos=3 cardId=LOE_115 player=2] to 
+D 01:12:53.7695500 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Raven Idol id=34 zone=PLAY zonePos=0 cardId=LOE_115 player=2] tag=ZONE value=GRAVEYARD
+D 01:12:53.7696780 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=COMBO_ACTIVE value=1
+D 01:12:53.7697820 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=NUM_OPTIONS_PLAYED_THIS_TURN value=1
+D 01:12:53.7700230 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Wild Growth id=101 zone=SETASIDE zonePos=0 cardId=CS2_013 player=2] tag=ZONE value=HAND
+D 01:12:53.7701490 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Wild Growth id=101 zone=SETASIDE zonePos=0 cardId=CS2_013 player=2] tag=ZONE_POSITION value=4
+D 01:12:53.7702750 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Wild Growth id=101 zone=SETASIDE zonePos=0 cardId=CS2_013 player=2] tag=DISPLAYED_CREATOR value=34
+D 01:12:53.7728290 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Raven Idol id=34 zone=GRAVEYARD zonePos=0 cardId=LOE_115 player=2] to FRIENDLY GRAVEYARD
+D 01:12:53.7730370 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wild Growth id=101 zone=HAND zonePos=0 cardId=CS2_013 player=2] to FRIENDLY HAND
+D 01:12:55.2858120 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:12:55.2860490 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:12:55.2862660 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:12:55.2867330 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:12:55.2873400 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:12:55.2875340 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:12:55.2879630 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:12:55.2881370 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:12:55.2921340 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=28 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:13:03.8839980 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:13:03.8841890 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:13:03.8843360 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:13:03.8847200 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:13:03.8853060 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:13:03.8854550 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:13:03.8861990 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:13:03.8864090 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:13:03.8947840 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bloodmage Thalnos id=67 zone=HAND zonePos=0 cardId=EX1_012 player=2] to FRIENDLY HAND
+D 01:13:20.4183270 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wild Growth id=101 zone=HAND zonePos=4 cardId=CS2_013 player=2] to 
+D 01:13:21.3168590 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wild Growth id=101 zone=GRAVEYARD zonePos=0 cardId=CS2_013 player=2] to FRIENDLY GRAVEYARD
+D 01:13:22.3165050 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:13:22.3166020 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:13:22.3166910 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:13:22.3168800 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:13:22.3171770 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:13:22.3173400 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:13:22.3176420 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:13:22.3178660 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:13:22.3207860 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=31 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:13:31.9395380 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=The Coin id=100 zone=PLAY zonePos=5 cardId=GAME_005 player=1] to 
+D 01:13:33.7849010 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=The Coin id=100 zone=GRAVEYARD zonePos=0 cardId=GAME_005 player=1] to OPPOSING GRAVEYARD
+D 01:13:35.9876680 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Tuskarr Totemic id=15 zone=PLAY zonePos=4 cardId=AT_046 player=1] to OPPOSING PLAY
+D 01:13:37.8375140 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Totem Golem id=106 zone=PLAY zonePos=2 cardId=AT_052 player=1] to OPPOSING PLAY
+D 01:13:39.0016170 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:13:39.0017370 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:13:39.0018430 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:13:39.0019690 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:13:39.0022950 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:13:39.0024050 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:13:39.0027110 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:13:39.4669850 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:13:39.4713680 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Nourish id=63 zone=HAND zonePos=0 cardId=EX1_164 player=2] to FRIENDLY HAND
+D 01:13:47.8519780 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Swipe id=37 zone=HAND zonePos=1 cardId=CS2_012 player=2] to 
+D 01:13:49.6687640 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Swipe id=37 zone=GRAVEYARD zonePos=0 cardId=CS2_012 player=2] to FRIENDLY GRAVEYARD
+D 01:13:49.7023590 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Totem Golem id=106 zone=GRAVEYARD zonePos=2 cardId=AT_052 player=1] to OPPOSING GRAVEYARD
+D 01:13:50.9498460 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:13:50.9499480 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:13:50.9500350 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:13:50.9502240 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:13:50.9506520 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:13:50.9508000 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:13:50.9511700 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:13:50.9514210 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:13:50.9554470 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=21 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:13:57.5245920 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mana Tide Totem id=31 zone=PLAY zonePos=5 cardId=EX1_575 player=1] to OPPOSING PLAY
+D 01:13:58.9997010 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Tuskarr Totemic id=15 zone=PLAY zonePos=1 cardId=AT_046 player=1] EffectCardId= EffectIndex=-1 Target=[name=Malfurion Stormrage id=98 zone=PLAY zonePos=0 cardId=HERO_06 player=2]
+D 01:13:59.0000500 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:14:00.5666020 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Tuskarr Totemic id=15 zone=PLAY zonePos=1 cardId=AT_046 player=1] EffectCardId= EffectIndex=-1 Target=[name=Malfurion Stormrage id=98 zone=PLAY zonePos=0 cardId=HERO_06 player=2]
+D 01:14:02.3498450 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:14:02.3501710 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:14:02.3502960 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:14:02.3505070 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:14:02.3510780 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:14:02.3511680 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:14:02.3514600 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:14:02.3515680 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:14:03.1499640 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=14 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:14:04.7066440 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Raven Idol id=48 zone=HAND zonePos=0 cardId=LOE_115 player=2] to FRIENDLY HAND
+D 01:14:13.4361870 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mulch id=41 zone=HAND zonePos=1 cardId=AT_044 player=2] to 
+D 01:14:16.0333860 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=107 cardId= type=INVALID zone=HAND zonePos=7 player=1] to OPPOSING HAND
+D 01:14:16.0848220 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Malfurion Stormrage id=98 zone=PLAY zonePos=0 cardId=HERO_06 player=2] EffectCardId= EffectIndex=-1 Target=[name=Tuskarr Totemic id=15 zone=PLAY zonePos=1 cardId=AT_046 player=1]
+D 01:14:16.0858160 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:14:17.6368360 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:14:17.6377230 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:14:17.6403980 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:14:17.6420460 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:14:17.6453600 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:14:17.6455520 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:14:17.6457140 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:14:17.6462710 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mulch id=41 zone=GRAVEYARD zonePos=0 cardId=AT_044 player=2] to FRIENDLY GRAVEYARD
+D 01:14:17.6872760 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mana Tide Totem id=31 zone=GRAVEYARD zonePos=2 cardId=EX1_575 player=1] to OPPOSING GRAVEYARD
+D 01:14:20.0026290 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Malfurion Stormrage id=98 zone=PLAY zonePos=0 cardId=HERO_06 player=2] EffectCardId= EffectIndex=-1 Target=[name=Tuskarr Totemic id=15 zone=PLAY zonePos=1 cardId=AT_046 player=1]
+D 01:14:22.2241960 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Tuskarr Totemic id=15 zone=GRAVEYARD zonePos=1 cardId=AT_046 player=1] to OPPOSING GRAVEYARD
+D 01:14:22.2856120 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:14:22.3193350 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=22 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:14:43.1555100 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Thing from Below id=33 zone=PLAY zonePos=3 cardId=OG_028 player=1] to OPPOSING PLAY
+D 01:14:45.9843740 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:14:45.9845250 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:14:45.9846710 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:14:45.9848550 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:14:45.9852030 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:14:45.9853180 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:14:45.9859320 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:14:46.1825400 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:14:46.1853340 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Living Roots id=42 zone=HAND zonePos=0 cardId=AT_037 player=2] to FRIENDLY HAND
+D 01:15:00.7702980 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Raven Idol id=48 zone=HAND zonePos=4 cardId=LOE_115 player=2] to 
+D 01:15:10.3168950 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Raven Idol id=48 zone=PLAY zonePos=0 cardId=LOE_115 player=2] tag=ZONE value=GRAVEYARD
+D 01:15:10.3169250 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=COMBO_ACTIVE value=1
+D 01:15:10.3169500 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=NUM_OPTIONS_PLAYED_THIS_TURN value=1
+D 01:15:10.3169900 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Starfall id=109 zone=SETASIDE zonePos=0 cardId=NEW1_007 player=2] tag=ZONE value=HAND
+D 01:15:10.3170420 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Starfall id=109 zone=SETASIDE zonePos=0 cardId=NEW1_007 player=2] tag=ZONE_POSITION value=5
+D 01:15:10.3170880 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Starfall id=109 zone=SETASIDE zonePos=0 cardId=NEW1_007 player=2] tag=DISPLAYED_CREATOR value=48
+D 01:15:10.3183980 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Raven Idol id=48 zone=GRAVEYARD zonePos=0 cardId=LOE_115 player=2] to FRIENDLY GRAVEYARD
+D 01:15:10.3186540 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Starfall id=109 zone=HAND zonePos=0 cardId=NEW1_007 player=2] to FRIENDLY HAND
+D 01:15:11.7045040 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Starfall id=109 zone=HAND zonePos=5 cardId=NEW1_007 player=2] to 
+D 01:15:15.3661160 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:15:15.3661810 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:15:15.3662380 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:15:15.3663710 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:15:15.3666020 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:15:15.3666570 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:15:15.3669060 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:15:17.5185400 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Starfall id=109 zone=GRAVEYARD zonePos=0 cardId=NEW1_007 player=2] to FRIENDLY GRAVEYARD
+D 01:15:17.5539210 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Thing from Below id=33 zone=GRAVEYARD zonePos=1 cardId=OG_028 player=1] to OPPOSING GRAVEYARD
+D 01:15:17.6160560 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:15:17.6200870 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=18 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:15:28.7223990 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Garrison Commander id=107 zone=PLAY zonePos=6 cardId=AT_080 player=1] to OPPOSING PLAY
+D 01:15:32.7741370 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Stoneclaw Totem id=114 zone=PLAY zonePos=2 cardId=CS2_051 player=1] to OPPOSING PLAY
+D 01:15:36.4666690 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:15:36.4667320 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:15:36.4668150 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:15:36.4669510 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:15:36.4671350 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:15:36.4671880 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:15:36.4674870 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:15:36.4676520 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:15:36.4731280 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Power of the Wild id=90 zone=HAND zonePos=0 cardId=EX1_160 player=2] to FRIENDLY HAND
+D 01:15:51.1373410 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Nourish id=77 zone=HAND zonePos=1 cardId=EX1_164 player=2] to 
+D 01:15:54.6413030 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisps of the Old Gods id=60 zone=HAND zonePos=0 cardId=OG_195 player=2] to FRIENDLY HAND
+D 01:15:54.6533720 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Soul of the Forest id=73 zone=HAND zonePos=0 cardId=EX1_158 player=2] to FRIENDLY HAND
+D 01:15:54.6734540 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Living Roots id=93 zone=HAND zonePos=0 cardId=AT_037 player=2] to FRIENDLY HAND
+D 01:15:59.7361640 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Nourish id=77 zone=GRAVEYARD zonePos=0 cardId=EX1_164 player=2] to FRIENDLY GRAVEYARD
+D 01:16:04.7527550 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bloodmage Thalnos id=67 zone=HAND zonePos=1 cardId=EX1_012 player=2] to FRIENDLY PLAY
+D 01:16:09.1350150 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:16:09.1352020 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:16:09.1353310 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:16:09.1355390 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:16:09.1357650 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:16:09.1358080 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:16:09.1359130 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:16:09.1360000 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:16:09.1397450 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=10 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:16:23.0755290 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Feral Spirit id=10 zone=PLAY zonePos=8 cardId=EX1_248 player=1] to 
+D 01:16:25.1521090 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Spirit Wolf id=115 zone=PLAY zonePos=3 cardId=EX1_tk11 player=1] to OPPOSING PLAY
+D 01:16:25.1693360 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Spirit Wolf id=116 zone=PLAY zonePos=4 cardId=EX1_tk11 player=1] to OPPOSING PLAY
+D 01:16:26.2860870 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Feral Spirit id=10 zone=GRAVEYARD zonePos=0 cardId=EX1_248 player=1] to OPPOSING GRAVEYARD
+D 01:16:28.6845340 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Searing Totem id=117 zone=PLAY zonePos=5 cardId=CS2_050 player=1] to OPPOSING PLAY
+D 01:16:32.8173340 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Garrison Commander id=107 zone=PLAY zonePos=1 cardId=AT_080 player=1] EffectCardId= EffectIndex=-1 Target=[name=Bloodmage Thalnos id=67 zone=PLAY zonePos=1 cardId=EX1_012 player=2]
+D 01:16:32.8190530 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=CURRENT_SPELLPOWER value=0
+D 01:16:32.8195820 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:16:32.8197590 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Garrison Commander id=107 zone=PLAY zonePos=1 cardId=AT_080 player=1] EffectCardId= EffectIndex=-1 Target=[name=Bloodmage Thalnos id=67 zone=PLAY zonePos=1 cardId=EX1_012 player=2]
+D 01:16:34.1039750 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bloodmage Thalnos id=67 zone=GRAVEYARD zonePos=1 cardId=EX1_012 player=2] to FRIENDLY GRAVEYARD
+D 01:16:34.1698070 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisps of the Old Gods id=54 zone=HAND zonePos=0 cardId=OG_195 player=2] to FRIENDLY HAND
+D 01:16:36.7569610 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Evolve id=28 zone=PLAY zonePos=3 cardId=OG_027 player=1] to 
+D 01:16:37.8685500 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Darkshire Councilman id=118 zone=SETASIDE zonePos=0 cardId=OG_113 player=1] to 
+D 01:16:37.8686590 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Darkshire Councilman id=118 zone=PLAY zonePos=0 cardId=OG_113 player=1] to OPPOSING PLAY
+D 01:16:37.8837850 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Garrison Commander id=107 zone=SETASIDE zonePos=1 cardId=AT_080 player=1] to 
+D 01:16:37.8866490 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Eternal Sentinel id=119 zone=SETASIDE zonePos=0 cardId=OG_026 player=1] to 
+D 01:16:37.8867580 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Eternal Sentinel id=119 zone=PLAY zonePos=0 cardId=OG_026 player=1] to OPPOSING PLAY
+D 01:16:37.8997960 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Stoneclaw Totem id=114 zone=SETASIDE zonePos=2 cardId=CS2_051 player=1] to 
+D 01:16:37.9228540 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flesheating Ghoul id=120 zone=SETASIDE zonePos=0 cardId=tt_004 player=1] to 
+D 01:16:37.9241190 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flesheating Ghoul id=120 zone=PLAY zonePos=0 cardId=tt_004 player=1] to OPPOSING PLAY
+D 01:16:37.9500660 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Spirit Wolf id=115 zone=SETASIDE zonePos=3 cardId=EX1_tk11 player=1] to 
+D 01:16:37.9525480 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ironfur Grizzly id=121 zone=SETASIDE zonePos=0 cardId=CS2_125 player=1] to 
+D 01:16:37.9526370 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ironfur Grizzly id=121 zone=PLAY zonePos=0 cardId=CS2_125 player=1] to OPPOSING PLAY
+D 01:16:37.9668120 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Spirit Wolf id=116 zone=SETASIDE zonePos=4 cardId=EX1_tk11 player=1] to 
+D 01:16:37.9693690 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Dark Peddler id=122 zone=SETASIDE zonePos=0 cardId=LOE_023 player=1] to 
+D 01:16:37.9694590 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Dark Peddler id=122 zone=PLAY zonePos=0 cardId=LOE_023 player=1] to OPPOSING PLAY
+D 01:16:37.9830440 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Searing Totem id=117 zone=SETASIDE zonePos=5 cardId=CS2_050 player=1] to 
+D 01:16:38.0173180 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Evolve id=28 zone=GRAVEYARD zonePos=0 cardId=OG_027 player=1] to OPPOSING GRAVEYARD
+D 01:16:42.0998970 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:16:42.0999590 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:16:42.1002020 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:16:42.1004400 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:16:42.1007190 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:16:42.1007680 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:16:42.1010390 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:16:42.1012060 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:16:42.1089700 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Innervate id=53 zone=HAND zonePos=0 cardId=EX1_169 player=2] to FRIENDLY HAND
+D 01:17:15.9391860 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisps of the Old Gods id=60 zone=HAND zonePos=4 cardId=OG_195 player=2] to 
+D 01:17:17.7210270 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=123 zone=PLAY zonePos=1 cardId=OG_195c player=2] to FRIENDLY PLAY
+D 01:17:17.7215310 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=124 zone=PLAY zonePos=2 cardId=OG_195c player=2] to FRIENDLY PLAY
+D 01:17:17.7219070 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=125 zone=PLAY zonePos=3 cardId=OG_195c player=2] to FRIENDLY PLAY
+D 01:17:17.7222970 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=126 zone=PLAY zonePos=4 cardId=OG_195c player=2] to FRIENDLY PLAY
+D 01:17:17.7226800 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=127 zone=PLAY zonePos=5 cardId=OG_195c player=2] to FRIENDLY PLAY
+D 01:17:17.7230240 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=128 zone=PLAY zonePos=6 cardId=OG_195c player=2] to FRIENDLY PLAY
+D 01:17:17.7233530 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=129 zone=PLAY zonePos=7 cardId=OG_195c player=2] to FRIENDLY PLAY
+D 01:17:18.8173580 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisps of the Old Gods id=60 zone=GRAVEYARD zonePos=0 cardId=OG_195 player=2] to FRIENDLY GRAVEYARD
+D 01:17:21.8870970 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Living Roots id=93 zone=HAND zonePos=5 cardId=AT_037 player=2] to 
+D 01:17:27.4002290 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Living Roots id=93 zone=GRAVEYARD zonePos=0 cardId=AT_037 player=2] to FRIENDLY GRAVEYARD
+D 01:17:27.4359610 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Eternal Sentinel id=119 zone=GRAVEYARD zonePos=2 cardId=OG_026 player=1] to OPPOSING GRAVEYARD
+D 01:17:28.3025640 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Cannibalize id=130 zone=PLAY zonePos=0 cardId=tt_004o player=1] to 
+D 01:17:28.9000150 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:17:28.9001050 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:17:28.9001680 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:17:28.9002960 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:17:28.9010670 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:17:28.9011900 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:17:28.9014580 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:17:28.9015780 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:17:28.9069910 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=24 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:17:44.1662020 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Searing Totem id=131 zone=PLAY zonePos=5 cardId=CS2_050 player=1] to OPPOSING PLAY
+D 01:17:46.0731720 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Power of the People id=132 zone=PLAY zonePos=0 cardId=OG_113e player=1] to 
+D 01:17:48.0021040 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Darkshire Councilman id=118 zone=PLAY zonePos=1 cardId=OG_113 player=1] EffectCardId= EffectIndex=-1 Target=[name=Wisp id=123 zone=PLAY zonePos=1 cardId=OG_195c player=2]
+D 01:17:48.0036930 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Flesheating Ghoul id=120 zone=PLAY zonePos=2 cardId=tt_004 player=1] tag=ATK value=4
+D 01:17:48.0037220 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:17:48.0038820 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Darkshire Councilman id=118 zone=PLAY zonePos=1 cardId=OG_113 player=1] EffectCardId= EffectIndex=-1 Target=[name=Wisp id=123 zone=PLAY zonePos=1 cardId=OG_195c player=2]
+D 01:17:49.2883570 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=123 zone=GRAVEYARD zonePos=1 cardId=OG_195c player=2] to FRIENDLY GRAVEYARD
+D 01:17:50.0010730 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Flesheating Ghoul id=120 zone=PLAY zonePos=2 cardId=tt_004 player=1] EffectCardId= EffectIndex=-1 Target=[name=Wisp id=124 zone=PLAY zonePos=1 cardId=OG_195c player=2]
+D 01:17:50.0029500 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Flesheating Ghoul id=120 zone=PLAY zonePos=2 cardId=tt_004 player=1] tag=ATK value=5
+D 01:17:50.0029770 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:17:50.1687390 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Flesheating Ghoul id=120 zone=PLAY zonePos=2 cardId=tt_004 player=1] EffectCardId= EffectIndex=-1 Target=[name=Wisp id=124 zone=PLAY zonePos=1 cardId=OG_195c player=2]
+D 01:17:51.4539540 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=124 zone=GRAVEYARD zonePos=1 cardId=OG_195c player=2] to FRIENDLY GRAVEYARD
+D 01:17:51.7202030 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Ironfur Grizzly id=121 zone=PLAY zonePos=3 cardId=CS2_125 player=1] EffectCardId= EffectIndex=-1 Target=[name=Wisp id=126 zone=PLAY zonePos=2 cardId=OG_195c player=2]
+D 01:17:51.7211980 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Flesheating Ghoul id=120 zone=PLAY zonePos=2 cardId=tt_004 player=1] tag=ATK value=6
+D 01:17:51.7212140 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:17:52.3189530 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Ironfur Grizzly id=121 zone=PLAY zonePos=3 cardId=CS2_125 player=1] EffectCardId= EffectIndex=-1 Target=[name=Wisp id=126 zone=PLAY zonePos=2 cardId=OG_195c player=2]
+D 01:17:53.5848560 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=126 zone=GRAVEYARD zonePos=2 cardId=OG_195c player=2] to FRIENDLY GRAVEYARD
+D 01:17:54.3356300 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Dark Peddler id=122 zone=PLAY zonePos=4 cardId=LOE_023 player=1] EffectCardId= EffectIndex=-1 Target=[name=Wisp id=128 zone=PLAY zonePos=3 cardId=OG_195c player=2]
+D 01:17:54.3369190 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Flesheating Ghoul id=120 zone=PLAY zonePos=2 cardId=tt_004 player=1] tag=ATK value=7
+D 01:17:54.3369490 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:17:54.4665150 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Dark Peddler id=122 zone=PLAY zonePos=4 cardId=LOE_023 player=1] EffectCardId= EffectIndex=-1 Target=[name=Wisp id=128 zone=PLAY zonePos=3 cardId=OG_195c player=2]
+D 01:17:55.7379480 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=128 zone=GRAVEYARD zonePos=3 cardId=OG_195c player=2] to FRIENDLY GRAVEYARD
+D 01:17:59.3169670 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:17:59.3171090 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:17:59.3172190 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:17:59.3174830 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:17:59.3182450 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:17:59.3183430 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:17:59.3188320 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:17:59.3189720 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:17:59.3268510 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mire Keeper id=45 zone=HAND zonePos=0 cardId=OG_202 player=2] to FRIENDLY HAND
+D 01:18:28.6379970 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Living Roots id=42 zone=HAND zonePos=2 cardId=AT_037 player=2] to 
+D 01:18:33.0361930 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sapling id=133 zone=PLAY zonePos=4 cardId=AT_037t player=2] to FRIENDLY PLAY
+D 01:18:33.0367260 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sapling id=134 zone=PLAY zonePos=5 cardId=AT_037t player=2] to FRIENDLY PLAY
+D 01:18:34.0995000 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Living Roots id=42 zone=GRAVEYARD zonePos=0 cardId=AT_037 player=2] to FRIENDLY GRAVEYARD
+D 01:18:40.2355840 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mire Keeper id=45 zone=HAND zonePos=6 cardId=OG_202 player=2] to FRIENDLY PLAY
+D 01:18:43.3884410 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Slime id=135 zone=PLAY zonePos=7 cardId=OG_202c player=2] to FRIENDLY PLAY
+D 01:18:55.0012860 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Soul of the Forest id=73 zone=HAND zonePos=3 cardId=EX1_158 player=2] to 
+D 01:18:56.4358820 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Soul of the Forest id=73 zone=GRAVEYARD zonePos=0 cardId=EX1_158 player=2] to FRIENDLY GRAVEYARD
+D 01:18:58.8029560 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Innervate id=53 zone=HAND zonePos=4 cardId=EX1_169 player=2] to 
+D 01:18:59.1836080 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Innervate id=53 zone=GRAVEYARD zonePos=0 cardId=EX1_169 player=2] to FRIENDLY GRAVEYARD
+D 01:19:01.1030190 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Power of the Wild id=90 zone=HAND zonePos=2 cardId=EX1_160 player=2] to 
+D 01:19:03.6505690 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Power of the Wild id=90 zone=GRAVEYARD zonePos=0 cardId=EX1_160 player=2] to FRIENDLY GRAVEYARD
+D 01:19:08.2334900 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Wisp id=129 zone=PLAY zonePos=3 cardId=OG_195c player=2] EffectCardId= EffectIndex=-1 Target=[name=Ironfur Grizzly id=121 zone=PLAY zonePos=3 cardId=CS2_125 player=1]
+D 01:19:08.2353270 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Flesheating Ghoul id=120 zone=PLAY zonePos=2 cardId=tt_004 player=1] tag=ATK value=9
+D 01:19:08.2353500 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:19:08.2357920 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Wisp id=129 zone=PLAY zonePos=3 cardId=OG_195c player=2] EffectCardId= EffectIndex=-1 Target=[name=Ironfur Grizzly id=121 zone=PLAY zonePos=3 cardId=CS2_125 player=1]
+D 01:19:08.9912150 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ironfur Grizzly id=121 zone=GRAVEYARD zonePos=3 cardId=CS2_125 player=1] to OPPOSING GRAVEYARD
+D 01:19:09.0019800 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=129 zone=GRAVEYARD zonePos=3 cardId=OG_195c player=2] to FRIENDLY GRAVEYARD
+D 01:19:10.6867130 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=150 zone=PLAY zonePos=7 cardId=EX1_158t player=2] to FRIENDLY PLAY
+D 01:19:11.7161830 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Wisp id=127 zone=PLAY zonePos=2 cardId=OG_195c player=2] EffectCardId= EffectIndex=-1 Target=[name=Flesheating Ghoul id=120 zone=PLAY zonePos=2 cardId=tt_004 player=1]
+D 01:19:11.7181790 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:19:11.8009190 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Wisp id=127 zone=PLAY zonePos=2 cardId=OG_195c player=2] EffectCardId= EffectIndex=-1 Target=[name=Flesheating Ghoul id=120 zone=PLAY zonePos=2 cardId=tt_004 player=1]
+D 01:19:12.5383030 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flesheating Ghoul id=120 zone=GRAVEYARD zonePos=2 cardId=tt_004 player=1] to OPPOSING GRAVEYARD
+D 01:19:12.5505360 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=127 zone=GRAVEYARD zonePos=2 cardId=OG_195c player=2] to FRIENDLY GRAVEYARD
+D 01:19:12.6187420 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=151 zone=PLAY zonePos=7 cardId=EX1_158t player=2] to FRIENDLY PLAY
+D 01:19:17.5503930 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Wisp id=125 zone=PLAY zonePos=1 cardId=OG_195c player=2] EffectCardId= EffectIndex=-1 Target=[name=Searing Totem id=131 zone=PLAY zonePos=3 cardId=CS2_050 player=1]
+D 01:19:17.5513490 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:19:17.5515000 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Wisp id=125 zone=PLAY zonePos=1 cardId=OG_195c player=2] EffectCardId= EffectIndex=-1 Target=[name=Searing Totem id=131 zone=PLAY zonePos=3 cardId=CS2_050 player=1]
+D 01:19:18.3065510 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Searing Totem id=131 zone=GRAVEYARD zonePos=3 cardId=CS2_050 player=1] to OPPOSING GRAVEYARD
+D 01:19:19.6010210 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:19:19.6010870 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:19:19.6011720 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:19:19.6015110 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:19:19.6021820 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:19:19.6022540 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:19:19.6024350 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:19:19.6025420 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:19:19.6089020 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=26 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:19:47.4008340 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Darkshire Councilman id=118 zone=PLAY zonePos=1 cardId=OG_113 player=1] EffectCardId= EffectIndex=-1 Target=[name=Sapling id=133 zone=PLAY zonePos=2 cardId=AT_037t player=2]
+D 01:19:47.4046830 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:19:47.4055170 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Darkshire Councilman id=118 zone=PLAY zonePos=1 cardId=OG_113 player=1] EffectCardId= EffectIndex=-1 Target=[name=Sapling id=133 zone=PLAY zonePos=2 cardId=AT_037t player=2]
+D 01:19:48.6892700 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sapling id=133 zone=GRAVEYARD zonePos=2 cardId=AT_037t player=2] to FRIENDLY GRAVEYARD
+D 01:19:48.7499530 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=152 zone=PLAY zonePos=7 cardId=EX1_158t player=2] to FRIENDLY PLAY
+D 01:19:53.4332930 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Dark Peddler id=122 zone=PLAY zonePos=2 cardId=LOE_023 player=1] EffectCardId= EffectIndex=-1 Target=[name=Sapling id=134 zone=PLAY zonePos=2 cardId=AT_037t player=2]
+D 01:19:53.4344840 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:19:53.4349810 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Dark Peddler id=122 zone=PLAY zonePos=2 cardId=LOE_023 player=1] EffectCardId= EffectIndex=-1 Target=[name=Sapling id=134 zone=PLAY zonePos=2 cardId=AT_037t player=2]
+D 01:19:54.7068580 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Dark Peddler id=122 zone=GRAVEYARD zonePos=2 cardId=LOE_023 player=1] to OPPOSING GRAVEYARD
+D 01:19:54.7174530 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sapling id=134 zone=GRAVEYARD zonePos=2 cardId=AT_037t player=2] to FRIENDLY GRAVEYARD
+D 01:19:54.7834370 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=153 zone=PLAY zonePos=7 cardId=EX1_158t player=2] to FRIENDLY PLAY
+D 01:19:59.9927920 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Rockbiter Weapon id=26 zone=PLAY zonePos=8 cardId=CS2_045 player=1] to 
+D 01:20:02.3017430 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1] EffectCardId= EffectIndex=-1 Target=[name=Slime id=135 zone=PLAY zonePos=3 cardId=OG_202c player=2]
+D 01:20:02.3032270 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:20:03.8535610 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Rockbiter Weapon id=154 zone=PLAY zonePos=0 cardId=CS2_045e player=1] to 
+D 01:20:03.8846960 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Rockbiter Weapon id=26 zone=GRAVEYARD zonePos=0 cardId=CS2_045 player=1] to OPPOSING GRAVEYARD
+D 01:20:04.0163130 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1] EffectCardId= EffectIndex=-1 Target=[name=Slime id=135 zone=PLAY zonePos=3 cardId=OG_202c player=2]
+D 01:20:07.2583950 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Slime id=135 zone=GRAVEYARD zonePos=3 cardId=OG_202c player=2] to FRIENDLY GRAVEYARD
+D 01:20:07.3332150 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=155 zone=PLAY zonePos=7 cardId=EX1_158t player=2] to FRIENDLY PLAY
+D 01:20:10.1901040 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Hex id=24 zone=PLAY zonePos=7 cardId=EX1_246 player=1] to 
+D 01:20:12.8212020 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Frog id=156 zone=PLAY zonePos=0 cardId=hexfrog player=2] to FRIENDLY PLAY
+D 01:20:12.8335300 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mire Keeper id=45 zone=SETASIDE zonePos=2 cardId=OG_202 player=2] to 
+D 01:20:13.8836330 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Hex id=24 zone=GRAVEYARD zonePos=0 cardId=EX1_246 player=1] to OPPOSING GRAVEYARD
+D 01:20:15.0729950 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Lightning Bolt id=21 zone=PLAY zonePos=3 cardId=EX1_238 player=1] to 
+D 01:20:19.0176250 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Lightning Bolt id=21 zone=GRAVEYARD zonePos=0 cardId=EX1_238 player=1] to OPPOSING GRAVEYARD
+D 01:20:19.0702200 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wisp id=125 zone=GRAVEYARD zonePos=1 cardId=OG_195c player=2] to FRIENDLY GRAVEYARD
+D 01:20:19.1337050 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=157 zone=PLAY zonePos=7 cardId=EX1_158t player=2] to FRIENDLY PLAY
+D 01:20:25.0247410 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Elemental Destruction id=18 zone=PLAY zonePos=5 cardId=AT_051 player=1] to 
+D 01:20:28.1361160 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Elemental Destruction id=18 zone=GRAVEYARD zonePos=0 cardId=AT_051 player=1] to OPPOSING GRAVEYARD
+D 01:20:28.1897970 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Darkshire Councilman id=118 zone=GRAVEYARD zonePos=1 cardId=OG_113 player=1] to OPPOSING GRAVEYARD
+D 01:20:28.2007360 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=150 zone=GRAVEYARD zonePos=2 cardId=EX1_158t player=2] to FRIENDLY GRAVEYARD
+D 01:20:28.2169180 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=151 zone=GRAVEYARD zonePos=2 cardId=EX1_158t player=2] to FRIENDLY GRAVEYARD
+D 01:20:28.2347790 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=152 zone=GRAVEYARD zonePos=2 cardId=EX1_158t player=2] to FRIENDLY GRAVEYARD
+D 01:20:28.2503880 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=153 zone=GRAVEYARD zonePos=2 cardId=EX1_158t player=2] to FRIENDLY GRAVEYARD
+D 01:20:28.2684720 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=155 zone=GRAVEYARD zonePos=2 cardId=EX1_158t player=2] to FRIENDLY GRAVEYARD
+D 01:20:28.2845050 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Frog id=156 zone=GRAVEYARD zonePos=1 cardId=hexfrog player=2] to FRIENDLY GRAVEYARD
+D 01:20:28.2999650 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Treant id=157 zone=GRAVEYARD zonePos=1 cardId=EX1_158t player=2] to FRIENDLY GRAVEYARD
+D 01:20:33.7525240 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:20:33.7526150 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:20:33.7528330 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:20:33.7529420 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:20:33.7532090 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:20:33.7532950 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:20:33.7535980 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:20:33.7537730 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:20:33.7859080 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Swipe id=69 zone=HAND zonePos=0 cardId=CS2_012 player=2] to FRIENDLY HAND
+D 01:20:47.8189160 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Nourish id=63 zone=HAND zonePos=1 cardId=EX1_164 player=2] to 
+D 01:20:50.7503240 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Power of the Wild id=84 zone=HAND zonePos=0 cardId=EX1_160 player=2] to FRIENDLY HAND
+D 01:20:50.7677810 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wild Growth id=40 zone=HAND zonePos=0 cardId=CS2_013 player=2] to FRIENDLY HAND
+D 01:20:50.7828560 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wild Growth id=80 zone=HAND zonePos=0 cardId=CS2_013 player=2] to FRIENDLY HAND
+D 01:20:55.8840610 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Nourish id=63 zone=GRAVEYARD zonePos=0 cardId=EX1_164 player=2] to FRIENDLY GRAVEYARD
+D 01:20:58.5007550 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wild Growth id=40 zone=HAND zonePos=4 cardId=CS2_013 player=2] to 
+D 01:20:59.4040840 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Excess Mana id=158 zone=HAND zonePos=5 cardId=CS2_013t player=2] to FRIENDLY HAND
+D 01:20:59.9687260 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wild Growth id=40 zone=GRAVEYARD zonePos=0 cardId=CS2_013 player=2] to FRIENDLY GRAVEYARD
+D 01:21:02.0016420 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Excess Mana id=158 zone=HAND zonePos=5 cardId=CS2_013t player=2] to 
+D 01:21:03.6869180 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Yogg-Saron, Hope's End id=52 zone=HAND zonePos=0 cardId=OG_134 player=2] to FRIENDLY HAND
+D 01:21:05.7680850 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Excess Mana id=158 zone=GRAVEYARD zonePos=0 cardId=CS2_013t player=2] to FRIENDLY GRAVEYARD
+D 01:21:06.8352470 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wild Growth id=80 zone=HAND zonePos=4 cardId=CS2_013 player=2] to 
+D 01:21:07.7341890 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Excess Mana id=159 zone=HAND zonePos=5 cardId=CS2_013t player=2] to FRIENDLY HAND
+D 01:21:08.3186220 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wild Growth id=80 zone=GRAVEYARD zonePos=0 cardId=CS2_013 player=2] to FRIENDLY GRAVEYARD
+D 01:21:10.0861300 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Excess Mana id=159 zone=HAND zonePos=5 cardId=CS2_013t player=2] to 
+D 01:21:11.8341510 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mire Keeper id=81 zone=HAND zonePos=0 cardId=OG_202 player=2] to FRIENDLY HAND
+D 01:21:13.8997710 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Excess Mana id=159 zone=GRAVEYARD zonePos=0 cardId=CS2_013t player=2] to FRIENDLY GRAVEYARD
+D 01:21:16.6503140 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:21:16.6504270 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:21:16.6506070 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:21:16.6508910 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:21:16.6513770 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:21:16.6514620 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:21:16.6516940 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:21:16.6518400 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:21:16.6549190 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=17 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:21:22.1062720 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Healing Totem id=160 zone=PLAY zonePos=1 cardId=NEW1_009 player=1] to OPPOSING PLAY
+D 01:21:24.4339370 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:21:24.4343390 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:21:24.4344890 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:21:24.4349550 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:21:24.4360120 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:21:24.4361600 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:21:24.4367460 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:21:25.0999610 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:21:26.4599100 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wrath id=57 zone=HAND zonePos=0 cardId=EX1_154 player=2] to FRIENDLY HAND
+D 01:21:46.7351740 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Yogg-Saron, Hope's End id=52 zone=HAND zonePos=4 cardId=OG_134 player=2] to FRIENDLY PLAY
+D 01:21:49.4497230 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Corruption id=161 zone=PLAY zonePos=0 cardId=CS2_063 player=2] to 
+D 01:21:51.9328600 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Corruption id=161 zone=GRAVEYARD zonePos=0 cardId=CS2_063 player=2] to FRIENDLY GRAVEYARD
+D 01:21:53.5840750 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Evolve id=164 zone=PLAY zonePos=0 cardId=OG_027 player=2] to 
+D 01:21:54.6835640 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Evolve id=164 zone=GRAVEYARD zonePos=0 cardId=OG_027 player=2] to FRIENDLY GRAVEYARD
+D 01:21:55.1336550 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Healing Wave id=165 zone=PLAY zonePos=0 cardId=AT_048 player=2] to 
+D 01:21:56.1881050 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=166 cardId= type=INVALID zone=DECK zonePos=0 player=2] to FRIENDLY DECK
+D 01:21:56.1882810 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=167 cardId= type=INVALID zone=DECK zonePos=0 player=1] to OPPOSING DECK
+D 01:21:56.2040850 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Teacher id=166 zone=DECK zonePos=0 cardId=NEW1_026 player=2] to 
+D 01:21:56.2195380 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Tunnel Trogg id=167 zone=DECK zonePos=0 cardId=LOE_018 player=1] to 
+D 01:22:02.5842890 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Teacher id=166 zone=SETASIDE zonePos=0 cardId=NEW1_026 player=2] to 
+D 01:22:02.5845630 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Tunnel Trogg id=167 zone=SETASIDE zonePos=0 cardId=LOE_018 player=1] to 
+D 01:22:05.2166410 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Healing Wave id=165 zone=GRAVEYARD zonePos=0 cardId=AT_048 player=2] to FRIENDLY GRAVEYARD
+D 01:22:05.2999560 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sinister Strike id=168 zone=PLAY zonePos=0 cardId=CS2_075 player=2] to 
+D 01:22:08.6830420 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sinister Strike id=168 zone=GRAVEYARD zonePos=0 cardId=CS2_075 player=2] to FRIENDLY GRAVEYARD
+D 01:22:08.7668270 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Claw id=169 zone=PLAY zonePos=0 cardId=CS2_005 player=2] to 
+D 01:22:11.0172320 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Claw id=169 zone=GRAVEYARD zonePos=0 cardId=CS2_005 player=2] to FRIENDLY GRAVEYARD
+D 01:22:11.0995740 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Tracking id=171 zone=PLAY zonePos=0 cardId=DS1_184 player=2] to 
+D 01:22:13.5518080 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Innervate id=51 zone=SETASIDE zonePos=0 cardId=EX1_169 player=2] to 
+D 01:22:13.5547970 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Savage Roar id=38 zone=SETASIDE zonePos=0 cardId=CS2_011 player=2] to 
+D 01:22:13.5574330 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Feral Rage id=70 zone=SETASIDE zonePos=0 cardId=OG_047 player=2] to 
+D 01:22:13.5575310 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Savage Roar id=38 zone=HAND zonePos=0 cardId=CS2_011 player=2] to FRIENDLY HAND
+D 01:22:14.1354030 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Tracking id=171 zone=GRAVEYARD zonePos=0 cardId=DS1_184 player=2] to FRIENDLY GRAVEYARD
+D 01:22:14.2182470 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Living Roots id=172 zone=PLAY zonePos=0 cardId=AT_037 player=2] to 
+D 01:22:16.6499920 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sapling id=175 zone=PLAY zonePos=2 cardId=AT_037t player=2] to FRIENDLY PLAY
+D 01:22:16.6506460 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sapling id=176 zone=PLAY zonePos=3 cardId=AT_037t player=2] to FRIENDLY PLAY
+D 01:22:17.7333310 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Living Roots id=172 zone=GRAVEYARD zonePos=0 cardId=AT_037 player=2] to FRIENDLY GRAVEYARD
+D 01:22:17.8332040 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shadow Bolt id=177 zone=PLAY zonePos=0 cardId=CS2_057 player=2] to 
+D 01:22:20.3336760 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shadow Bolt id=177 zone=GRAVEYARD zonePos=0 cardId=CS2_057 player=2] to FRIENDLY GRAVEYARD
+D 01:22:20.3848580 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sapling id=176 zone=GRAVEYARD zonePos=3 cardId=AT_037t player=2] to FRIENDLY GRAVEYARD
+D 01:22:20.4837440 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Competitive Spirit id=178 zone=SECRET zonePos=0 cardId=AT_073 player=2] to FRIENDLY SECRET
+D 01:22:22.0335880 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Heroic Strike id=179 zone=PLAY zonePos=0 cardId=CS2_105 player=2] to 
+D 01:22:23.7493880 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Heroic Strike id=179 zone=GRAVEYARD zonePos=0 cardId=CS2_105 player=2] to FRIENDLY GRAVEYARD
+D 01:22:23.8339820 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sap id=181 zone=PLAY zonePos=0 cardId=EX1_581 player=2] to 
+D 01:22:27.1827370 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Healing Totem id=160 zone=HAND zonePos=1 cardId=NEW1_009 player=1] to OPPOSING HAND
+D 01:22:30.0171620 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sap id=181 zone=GRAVEYARD zonePos=0 cardId=EX1_581 player=2] to FRIENDLY GRAVEYARD
+D 01:22:30.1016000 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Raven Idol id=182 zone=PLAY zonePos=0 cardId=LOE_115 player=2] to 
+D 01:22:31.8995300 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Malfurion Stormrage id=98 zone=PLAY zonePos=0 cardId=HERO_06 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:22:31.9000810 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:22:33.7434570 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Silvermoon Guardian id=187 zone=HAND zonePos=0 cardId=EX1_023 player=2] to FRIENDLY HAND
+D 01:22:34.6004660 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Raven Idol id=182 zone=GRAVEYARD zonePos=0 cardId=LOE_115 player=2] to FRIENDLY GRAVEYARD
+D 01:22:34.6834860 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sacred Trial id=188 zone=SECRET zonePos=0 cardId=LOE_027 player=2] to FRIENDLY SECRET
+D 01:22:36.2506450 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Redemption id=189 zone=SECRET zonePos=0 cardId=EX1_136 player=2] to FRIENDLY SECRET
+D 01:22:37.8199410 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shield Slam id=190 zone=PLAY zonePos=0 cardId=EX1_410 player=2] to 
+D 01:22:40.8511270 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shield Slam id=190 zone=GRAVEYARD zonePos=0 cardId=EX1_410 player=2] to FRIENDLY GRAVEYARD
+D 01:22:40.9342150 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Lay on Hands id=191 zone=PLAY zonePos=0 cardId=EX1_354 player=2] to 
+D 01:22:43.5688320 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Teacher id=66 zone=HAND zonePos=0 cardId=NEW1_026 player=2] to FRIENDLY HAND
+D 01:22:43.5888200 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Fandral Staghelm id=68 zone=HAND zonePos=0 cardId=OG_044 player=2] to FRIENDLY HAND
+D 01:22:43.6027860 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Teacher id=39 zone=HAND zonePos=0 cardId=NEW1_026 player=2] to FRIENDLY HAND
+D 01:22:44.7180270 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:22:44.7181980 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:22:44.7191630 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:22:44.7194780 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:22:44.7199590 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:22:44.7200790 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:22:44.7202940 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:22:48.7180280 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Lay on Hands id=191 zone=GRAVEYARD zonePos=0 cardId=EX1_354 player=2] to FRIENDLY GRAVEYARD
+D 01:22:48.8012410 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shadow Word: Pain id=192 zone=PLAY zonePos=0 cardId=CS2_234 player=2] to 
+D 01:22:51.7168820 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shadow Word: Pain id=192 zone=GRAVEYARD zonePos=0 cardId=CS2_234 player=2] to FRIENDLY GRAVEYARD
+D 01:22:51.7701830 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sapling id=175 zone=GRAVEYARD zonePos=2 cardId=AT_037t player=2] to FRIENDLY GRAVEYARD
+D 01:22:52.3679110 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Malfurion Stormrage id=98 zone=PLAY zonePos=0 cardId=HERO_06 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:22:53.4020160 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:22:53.4702390 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=12 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:23:15.8446200 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Onyxia id=8 zone=PLAY zonePos=1 cardId=EX1_562 player=1] to OPPOSING PLAY
+D 01:23:17.3520910 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=193 zone=PLAY zonePos=2 cardId=ds1_whelptoken player=1] to OPPOSING PLAY
+D 01:23:17.3996540 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=194 zone=PLAY zonePos=1 cardId=ds1_whelptoken player=1] to OPPOSING PLAY
+D 01:23:17.4006980 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=195 zone=PLAY zonePos=3 cardId=ds1_whelptoken player=1] to OPPOSING PLAY
+D 01:23:17.4339130 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=196 zone=PLAY zonePos=2 cardId=ds1_whelptoken player=1] to OPPOSING PLAY
+D 01:23:17.4349520 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=197 zone=PLAY zonePos=4 cardId=ds1_whelptoken player=1] to OPPOSING PLAY
+D 01:23:17.4670490 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=198 zone=PLAY zonePos=3 cardId=ds1_whelptoken player=1] to OPPOSING PLAY
+D 01:23:23.3164980 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sacred Trial id=188 zone=GRAVEYARD zonePos=0 cardId=LOE_027 player=2] to FRIENDLY GRAVEYARD
+D 01:23:24.3891110 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Onyxia id=8 zone=GRAVEYARD zonePos=4 cardId=EX1_562 player=1] to OPPOSING GRAVEYARD
+D 01:23:28.6516580 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Healing Totem id=160 zone=PLAY zonePos=5 cardId=NEW1_009 player=1] to OPPOSING PLAY
+D 01:23:32.0330930 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:23:32.0336150 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:23:32.0337950 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:23:32.0339970 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:23:32.0344500 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:23:32.0346330 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Competitive Spirit id=178 zone=SECRET zonePos=0 cardId=AT_073 player=2] tag=EXHAUSTED value=0
+D 01:23:32.0346810 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Competitive Spirit id=178 zone=SECRET zonePos=0 cardId=AT_073 player=2] tag=ZONE value=GRAVEYARD
+D 01:23:32.0347660 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Yogg-Saron, Hope's End id=52 zone=PLAY zonePos=1 cardId=OG_134 player=2] tag=HEALTH value=6
+D 01:23:32.0347830 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Yogg-Saron, Hope's End id=52 zone=PLAY zonePos=1 cardId=OG_134 player=2] tag=ATK value=8
+D 01:23:32.0347990 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:23:32.0349950 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:23:32.0351130 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:23:38.4340200 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Competitive Spirit id=178 zone=GRAVEYARD zonePos=0 cardId=AT_073 player=2] to FRIENDLY GRAVEYARD
+D 01:23:39.5032650 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wrath id=74 zone=GRAVEYARD zonePos=0 cardId=EX1_154 player=2] to FRIENDLY GRAVEYARD
+D 01:24:22.1330660 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Teacher id=66 zone=HAND zonePos=8 cardId=NEW1_026 player=2] to FRIENDLY PLAY
+D 01:24:35.3698490 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Swipe id=69 zone=HAND zonePos=2 cardId=CS2_012 player=2] to 
+D 01:24:36.4864960 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Apprentice id=204 zone=PLAY zonePos=2 cardId=NEW1_026t player=2] to FRIENDLY PLAY
+D 01:24:39.5024140 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Swipe id=69 zone=GRAVEYARD zonePos=0 cardId=CS2_012 player=2] to FRIENDLY GRAVEYARD
+D 01:24:39.5392350 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=193 zone=GRAVEYARD zonePos=7 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.5542310 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=194 zone=GRAVEYARD zonePos=1 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.5697590 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=195 zone=GRAVEYARD zonePos=5 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.5859340 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=196 zone=GRAVEYARD zonePos=1 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.5998880 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=197 zone=GRAVEYARD zonePos=3 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.6163290 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=198 zone=GRAVEYARD zonePos=1 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.6331180 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Healing Totem id=160 zone=GRAVEYARD zonePos=1 cardId=NEW1_009 player=1] to OPPOSING GRAVEYARD
+D 01:24:49.5839650 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Yogg-Saron, Hope's End id=52 zone=PLAY zonePos=3 cardId=OG_134 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:24:49.5846150 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:24:49.5847520 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Yogg-Saron, Hope's End id=52 zone=PLAY zonePos=3 cardId=OG_134 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:24:51.0173700 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Malfurion Stormrage id=98 zone=PLAY zonePos=0 cardId=HERO_06 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:24:51.0181230 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:24:51.0183030 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Malfurion Stormrage id=98 zone=PLAY zonePos=0 cardId=HERO_06 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:24:52.6172810 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:24:52.6174080 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:24:52.6178950 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:24:52.6180710 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:24:52.6185590 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:24:52.6186770 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:24:52.6190490 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:24:53.1053800 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:24:53.1382450 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=16 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:25:09.9221430 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1] to OPPOSING PLAY
+D 01:25:14.3499420 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:25:14.3514170 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Redemption id=189 zone=SECRET zonePos=0 cardId=EX1_136 player=2] tag=ZONE value=GRAVEYARD
+D 01:25:14.3514320 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:25:14.3514980 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:25:14.3516120 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:25:14.3519290 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:25:14.3519770 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:25:14.3522510 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:25:14.3527400 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:25:17.2380950 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Yogg-Saron, Hope's End id=52 zone=GRAVEYARD zonePos=3 cardId=OG_134 player=2] to FRIENDLY GRAVEYARD
+D 01:25:19.3503100 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Yogg-Saron, Hope's End id=206 zone=PLAY zonePos=3 cardId=OG_134 player=2] to FRIENDLY PLAY
+D 01:25:22.3336910 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Redemption id=189 zone=GRAVEYARD zonePos=0 cardId=EX1_136 player=2] to FRIENDLY GRAVEYARD
+D 01:25:22.3919380 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Cenarius id=87 zone=HAND zonePos=0 cardId=EX1_573 player=2] to FRIENDLY HAND
+D 01:25:34.1663140 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Yogg-Saron, Hope's End id=206 zone=PLAY zonePos=3 cardId=OG_134 player=2] EffectCardId= EffectIndex=-1 Target=[name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1]
+D 01:25:34.1675000 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:25:34.1677050 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Yogg-Saron, Hope's End id=206 zone=PLAY zonePos=3 cardId=OG_134 player=2] EffectCardId= EffectIndex=-1 Target=[name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1]
+D 01:25:34.9022770 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Yogg-Saron, Hope's End id=206 zone=GRAVEYARD zonePos=3 cardId=OG_134 player=2] to FRIENDLY GRAVEYARD
+D 01:25:38.5682830 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Violet Apprentice id=204 zone=PLAY zonePos=2 cardId=NEW1_026t player=2] EffectCardId= EffectIndex=-1 Target=[name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1]
+D 01:25:38.5690720 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1] tag=CANT_ATTACK value=0
+D 01:25:38.5690860 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:25:38.5691690 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Violet Apprentice id=204 zone=PLAY zonePos=2 cardId=NEW1_026t player=2] EffectCardId= EffectIndex=-1 Target=[name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1]
+D 01:25:39.3073990 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Apprentice id=204 zone=GRAVEYARD zonePos=2 cardId=NEW1_026t player=2] to FRIENDLY GRAVEYARD
+D 01:25:39.3182140 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ragnaros the Firelord id=9 zone=GRAVEYARD zonePos=1 cardId=EX1_298 player=1] to OPPOSING GRAVEYARD
+D 01:25:57.1024940 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Teacher id=39 zone=HAND zonePos=8 cardId=NEW1_026 player=2] to FRIENDLY PLAY
+D 01:26:00.0506500 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Fandral Staghelm id=68 zone=HAND zonePos=7 cardId=OG_044 player=2] to FRIENDLY PLAY
+D 01:26:02.9175320 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Power of the Wild id=84 zone=HAND zonePos=2 cardId=EX1_160 player=2] to 
+D 01:26:03.9688390 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Apprentice id=207 zone=PLAY zonePos=3 cardId=NEW1_026t player=2] to FRIENDLY PLAY
+D 01:26:06.4166450 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Apprentice id=208 zone=PLAY zonePos=2 cardId=NEW1_026t player=2] to FRIENDLY PLAY
+D 01:26:06.4840910 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Violet Teacher id=66 zone=PLAY zonePos=3 cardId=NEW1_026 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:26:06.4849360 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:26:08.0564850 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Panther id=209 zone=PLAY zonePos=6 cardId=EX1_160t player=2] to FRIENDLY PLAY
+D 01:26:09.1511080 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Power of the Wild id=84 zone=GRAVEYARD zonePos=0 cardId=EX1_160 player=2] to FRIENDLY GRAVEYARD
+D 01:26:09.1835330 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Violet Teacher id=66 zone=PLAY zonePos=3 cardId=NEW1_026 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:26:09.4865770 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:26:09.4867150 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:26:09.4868840 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:26:09.4870660 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:26:09.4874360 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:26:09.4875530 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:26:09.4878130 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:26:09.9458660 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:26:09.9731070 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=30 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:26:48.9672290 GameState.DebugPrintPower() - TAG_CHANGE Entity=Chronos tag=PLAYSTATE value=DISCONNECTED
+D 01:26:49.3659800 GameState.DebugPrintPower() - TAG_CHANGE Entity=Chronos tag=PLAYSTATE value=LOST
+D 01:26:49.3659960 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=PLAYSTATE value=WON
+D 01:26:49.3660130 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=NEXT_STEP value=FINAL_WRAPUP
+D 01:26:49.3660310 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=FINAL_WRAPUP
+D 01:26:49.3661280 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=FINAL_GAMEOVER
+D 01:26:49.3661580 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STATE value=COMPLETE
+D 01:26:49.3668160 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=brbcoffee tag=PLAYSTATE value=WON
+=2] to FRIENDLY GRAVEYARD
+D 01:24:39.5392350 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=193 zone=GRAVEYARD zonePos=7 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.5542310 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=194 zone=GRAVEYARD zonePos=1 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.5697590 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=195 zone=GRAVEYARD zonePos=5 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.5859340 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=196 zone=GRAVEYARD zonePos=1 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.5998880 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=197 zone=GRAVEYARD zonePos=3 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.6163290 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Whelp id=198 zone=GRAVEYARD zonePos=1 cardId=ds1_whelptoken player=1] to OPPOSING GRAVEYARD
+D 01:24:39.6331180 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Healing Totem id=160 zone=GRAVEYARD zonePos=1 cardId=NEW1_009 player=1] to OPPOSING GRAVEYARD
+D 01:24:49.5839650 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Yogg-Saron, Hope's End id=52 zone=PLAY zonePos=3 cardId=OG_134 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:24:49.5846150 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:24:49.5847520 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Yogg-Saron, Hope's End id=52 zone=PLAY zonePos=3 cardId=OG_134 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:24:51.0173700 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Malfurion Stormrage id=98 zone=PLAY zonePos=0 cardId=HERO_06 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:24:51.0181230 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:24:51.0183030 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Malfurion Stormrage id=98 zone=PLAY zonePos=0 cardId=HERO_06 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:24:52.6172810 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:24:52.6174080 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:24:52.6178950 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:24:52.6180710 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:24:52.6185590 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:24:52.6186770 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:24:52.6190490 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:24:53.1053800 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:24:53.1382450 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=16 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:25:09.9221430 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1] to OPPOSING PLAY
+D 01:25:14.3499420 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:25:14.3514170 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Redemption id=189 zone=SECRET zonePos=0 cardId=EX1_136 player=2] tag=ZONE value=GRAVEYARD
+D 01:25:14.3514320 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:25:14.3514980 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:25:14.3516120 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:25:14.3519290 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:25:14.3519770 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:25:14.3522510 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:25:14.3527400 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:25:17.2380950 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Yogg-Saron, Hope's End id=52 zone=GRAVEYARD zonePos=3 cardId=OG_134 player=2] to FRIENDLY GRAVEYARD
+D 01:25:19.3503100 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Yogg-Saron, Hope's End id=206 zone=PLAY zonePos=3 cardId=OG_134 player=2] to FRIENDLY PLAY
+D 01:25:22.3336910 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Redemption id=189 zone=GRAVEYARD zonePos=0 cardId=EX1_136 player=2] to FRIENDLY GRAVEYARD
+D 01:25:22.3919380 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Cenarius id=87 zone=HAND zonePos=0 cardId=EX1_573 player=2] to FRIENDLY HAND
+D 01:25:34.1663140 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Yogg-Saron, Hope's End id=206 zone=PLAY zonePos=3 cardId=OG_134 player=2] EffectCardId= EffectIndex=-1 Target=[name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1]
+D 01:25:34.1675000 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:25:34.1677050 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Yogg-Saron, Hope's End id=206 zone=PLAY zonePos=3 cardId=OG_134 player=2] EffectCardId= EffectIndex=-1 Target=[name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1]
+D 01:25:34.9022770 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Yogg-Saron, Hope's End id=206 zone=GRAVEYARD zonePos=3 cardId=OG_134 player=2] to FRIENDLY GRAVEYARD
+D 01:25:38.5682830 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Violet Apprentice id=204 zone=PLAY zonePos=2 cardId=NEW1_026t player=2] EffectCardId= EffectIndex=-1 Target=[name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1]
+D 01:25:38.5690720 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1] tag=CANT_ATTACK value=0
+D 01:25:38.5690860 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:25:38.5691690 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Violet Apprentice id=204 zone=PLAY zonePos=2 cardId=NEW1_026t player=2] EffectCardId= EffectIndex=-1 Target=[name=Ragnaros the Firelord id=9 zone=PLAY zonePos=1 cardId=EX1_298 player=1]
+D 01:25:39.3073990 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Apprentice id=204 zone=GRAVEYARD zonePos=2 cardId=NEW1_026t player=2] to FRIENDLY GRAVEYARD
+D 01:25:39.3182140 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ragnaros the Firelord id=9 zone=GRAVEYARD zonePos=1 cardId=EX1_298 player=1] to OPPOSING GRAVEYARD
+D 01:25:57.1024940 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Teacher id=39 zone=HAND zonePos=8 cardId=NEW1_026 player=2] to FRIENDLY PLAY
+D 01:26:00.0506500 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Fandral Staghelm id=68 zone=HAND zonePos=7 cardId=OG_044 player=2] to FRIENDLY PLAY
+D 01:26:02.9175320 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Power of the Wild id=84 zone=HAND zonePos=2 cardId=EX1_160 player=2] to 
+D 01:26:03.9688390 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Apprentice id=207 zone=PLAY zonePos=3 cardId=NEW1_026t player=2] to FRIENDLY PLAY
+D 01:26:06.4166450 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Violet Apprentice id=208 zone=PLAY zonePos=2 cardId=NEW1_026t player=2] to FRIENDLY PLAY
+D 01:26:06.4840910 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Violet Teacher id=66 zone=PLAY zonePos=3 cardId=NEW1_026 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:26:06.4849360 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:26:08.0564850 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Panther id=209 zone=PLAY zonePos=6 cardId=EX1_160t player=2] to FRIENDLY PLAY
+D 01:26:09.1511080 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Power of the Wild id=84 zone=GRAVEYARD zonePos=0 cardId=EX1_160 player=2] to FRIENDLY GRAVEYARD
+D 01:26:09.1835330 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Violet Teacher id=66 zone=PLAY zonePos=3 cardId=NEW1_026 player=2] EffectCardId= EffectIndex=-1 Target=[name=Morgl the Oracle id=96 zone=PLAY zonePos=0 cardId=HERO_02a player=1]
+D 01:26:09.4865770 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:26:09.4867150 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 01:26:09.4868840 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 01:26:09.4870660 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 01:26:09.4874360 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 01:26:09.4875530 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 01:26:09.4878130 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 01:26:09.9458660 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 01:26:09.9731070 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=30 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 01:26:48.9672290 GameState.DebugPrintPower() - TAG_CHANGE Entity=Chronos tag=PLAYSTATE value=DISCONNECTED
+D 01:26:49.3659800 GameState.DebugPrintPower() - TAG_CHANGE Entity=Chronos tag=PLAYSTATE value=LOST
+D 01:26:49.3659960 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=PLAYSTATE value=WON
+D 01:26:49.3660130 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=NEXT_STEP value=FINAL_WRAPUP
+D 01:26:49.3660310 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=FINAL_WRAPUP
+D 01:26:49.3661280 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=FINAL_GAMEOVER
+D 01:26:49.3661580 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STATE value=COMPLETE
+D 01:26:49.3668160 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=brbcoffee tag=PLAYSTATE value=WON

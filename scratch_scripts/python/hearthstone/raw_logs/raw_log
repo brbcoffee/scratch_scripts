@@ -1,0 +1,60 @@
+
+==> Bob.log <==
+D 11:14:41.8338010 NetCache <<<GET NetCacheBoosters
+D 11:14:41.8338410 NetCache <<<GET NetCacheFeatures
+D 11:14:42.0171330 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 11:14:42.0998160 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 11:15:03.0412800 ---RegisterScreenTourneys---
+D 11:15:03.2610990 legend rank 0
+D 11:15:03.2612510 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 11:15:03.2943780 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 11:15:03.2948260 play queue BGT_CASUAL_STANDARD
+D 11:15:03.3006100 Network.GetDeckContents 519250219, 544714615, 547249449, 548775550, 550036608, 552516786, 548568142
+
+==> Rachelle.log <==
+D 11:14:16.0093160 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 14 : PROGRESS [AdventureMission.WingProgress: Wing=14, Progress=5 Flags=769] (former flags [AdventureMission.WingProgress: Wing=14, Progress=5 Flags=0])
+D 11:14:16.0237930 StoreManager reset CONFIG delay, now waiting 60 seconds between requests
+D 11:14:16.0384530 StoreManager updated STATUS delay, now waiting 90 seconds between requests
+D 11:14:16.2907780 SetActiveMoneyOrGTAPPTransaction() [MoneyOrGTAPPTransaction: ID=52373271,ProductID='99300044703000004088',IsGTAPP=False,Provider=BP_PROVIDER_BLIZZARD]
+D 11:14:16.2925380 StoreManager.ReloadNoticesIfNecessary: errorType = SUCCESS, RELOADING
+D 11:14:16.2928050 StoreManager.HandPurchaseError(): force reloading notices for very first status
+D 11:14:16.2943360 StoreManager reset STATUS delay, now waiting 45 seconds between requests
+D 11:14:16.3761250 NetCache.OnProfileNotices() sending 0 new notices to 7 listeners
+D 11:14:16.3821290 StoreManager.ResolveFirstMoneyTransactionIfPossible(): no outstanding notices for transaction [MoneyOrGTAPPTransaction: ID=52373271,ProductID='99300044703000004088',IsGTAPP=False,Provider=BP_PROVIDER_BLIZZARD]; setting m_activeMoneyOrGTAPPTransaction = null
+D 11:14:16.7220150 NetCache.OnProfileNotices() sending 0 new notices to 7 listeners
+
+==> Power.log <==
+D 23:07:38.5941420 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STATE value=COMPLETE
+D 23:07:38.5941480 PowerTaskList.DebugDump() - Block End=(null)
+D 23:07:38.6097410 GameState.DebugPrintPowerList() - Count=2
+D 23:07:38.6097670 GameState.DebugPrintPower() - TAG_CHANGE Entity=RIPBACON tag=GOLD_REWARD_STATE value=1
+D 23:07:38.6097860 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=GOLD_REWARD_STATE value=1
+D 23:07:38.6098010 PowerTaskList.DebugDump() - ID=587 ParentID=0 PreviousID=0 TaskCount=2
+D 23:07:38.6098080 PowerTaskList.DebugDump() - Block Start=(null)
+D 23:07:38.6099450 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=RIPBACON tag=GOLD_REWARD_STATE value=1
+D 23:07:38.6099760 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=brbcoffee tag=GOLD_REWARD_STATE value=1
+D 23:07:38.6099960 PowerTaskList.DebugDump() - Block End=(null)
+
+==> Asset.log <==
+D 11:15:02.7124800 CachedAsset.UnloadAssetObject() - unloading name=box_center_disk_flip family=AudioClip persistent=False
+D 11:15:02.7125130 CachedAsset.UnloadAssetObject() - unloading name=box_hub_button_press_2 family=AudioClip persistent=False
+D 11:15:02.7125260 CachedAsset.UnloadAssetObject() - unloading name=box_large_button_mouse_over family=AudioClip persistent=False
+D 11:15:03.9629940 CachedAsset.UnloadAssetObject() - unloading name=FindOpponent_mechanism_start family=Sound persistent=True
+D 11:15:03.9630310 CachedAsset.UnloadAssetObject() - unloading name=hero_panel_slide_on family=Sound persistent=True
+D 11:15:03.9630450 CachedAsset.UnloadAssetObject() - unloading name=hero_panel_slide_off family=Sound persistent=True
+D 11:15:03.9630560 CachedAsset.UnloadAssetObject() - unloading name=play_button_mouseover family=Sound persistent=True
+D 11:15:03.9630670 CachedAsset.UnloadAssetObject() - unloading name=tiny_button_press_1 family=Sound persistent=True
+D 11:15:03.9630770 CachedAsset.UnloadAssetObject() - unloading name=tiny_button_mouseover_1 family=Sound persistent=True
+D 11:15:11.9615730 CachedAsset.UnloadAssetObject() - unloading name=Main_Title family=Sound persistent=True
+
+==> Zone.log <==
+D 23:07:36.3595650 ZoneChangeList.ProcessChanges() - processing index=7 change=powerTask=[power=[type=TAG_CHANGE entity=[id=1 cardId= name=GameEntity] tag=NUM_MINIONS_KILLED_THIS_TURN value=0] complete=False] entity=GameEntity srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 23:07:36.3595850 ZoneChangeList.ProcessChanges() - processing index=8 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=RIPBACON] tag=HEROPOWER_ACTIVATIONS_THIS_TURN value=0] complete=False] entity=RIPBACON srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 23:07:36.3596100 ZoneChangeList.ProcessChanges() - processing index=9 change=powerTask=[power=[type=TAG_CHANGE entity=[id=1 cardId= name=GameEntity] tag=NEXT_STEP value=MAIN_ACTION] complete=False] entity=GameEntity srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 23:07:36.3596230 ZoneChangeList.UpdateDirtyZones() - m_id=131 loadingEntities.Count=0 m_dirtyZones.Count=2
+D 23:07:36.3596430 ZoneChangeList.UpdateDirtyZones() - m_id=131 START waiting for zone OPPOSING DECK
+D 23:07:36.3596690 ZoneChangeList.OnUpdateLayoutComplete() - m_id=131 END waiting for zone OPPOSING DECK
+D 23:07:36.3596800 ZoneChangeList.UpdateDirtyZones() - m_id=131 START waiting for zone OPPOSING HAND
+D 23:07:37.8586260 ZoneChangeList.OnUpdateLayoutComplete() - m_id=131 END waiting for zone OPPOSING HAND
+D 23:07:37.8590820 ZoneChangeList.Finish() - id=131 changes=10 complete=True local=False localTrigger=[]
+D 23:07:37.8755640 ZoneChangeList.FireCompleteCallback() - m_id=131 m_taskList=581 m_changes.Count=10 m_complete=True m_completeCallback=(not null)

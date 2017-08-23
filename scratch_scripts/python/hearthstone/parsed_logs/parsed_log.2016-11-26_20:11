@@ -1,0 +1,141 @@
+D 20:11:40.2273120 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Garrosh Hellscream id=64 zone=PLAY zonePos=0 cardId=HERO_01 player=1] to FRIENDLY PLAY (Hero)
+D 20:11:40.2273340 ZoneChangeList.ProcessChanges() - id=1 local=False [name=Garrosh Hellscream id=64 zone=PLAY zonePos=0 cardId=HERO_01 player=1] zone from  -> FRIENDLY PLAY (Hero)
+D 20:11:40.2279800 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Armor Up! id=65 zone=PLAY zonePos=0 cardId=CS2_102 player=1] to FRIENDLY PLAY (Hero Power)
+D 20:11:40.2280030 ZoneChangeList.ProcessChanges() - id=1 local=False [name=Armor Up! id=65 zone=PLAY zonePos=0 cardId=CS2_102 player=1] zone from  -> FRIENDLY PLAY (Hero Power)
+D 20:11:40.2285430 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Valeera Sanguinar id=66 zone=PLAY zonePos=0 cardId=HERO_03 player=2] to OPPOSING PLAY (Hero)
+D 20:11:40.2285750 ZoneChangeList.ProcessChanges() - id=1 local=False [name=Valeera Sanguinar id=66 zone=PLAY zonePos=0 cardId=HERO_03 player=2] zone from  -> OPPOSING PLAY (Hero)
+D 20:11:40.2291160 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Dagger Mastery id=67 zone=PLAY zonePos=0 cardId=CS2_083b player=2] to OPPOSING PLAY (Hero Power)
+D 20:11:40.2291390 ZoneChangeList.ProcessChanges() - id=1 local=False [name=Dagger Mastery id=67 zone=PLAY zonePos=0 cardId=CS2_083b player=2] zone from  -> OPPOSING PLAY (Hero Power)
+D 20:11:40.2960770 ZoneChangeList.UpdateDirtyZones() - m_id=1 START waiting for zone FRIENDLY PLAY (Hero)
+D 20:11:40.2970820 ZoneChangeList.UpdateDirtyZones() - m_id=1 START waiting for zone FRIENDLY PLAY (Hero Power)
+D 20:11:40.2980550 ZoneChangeList.UpdateDirtyZones() - m_id=1 START waiting for zone OPPOSING PLAY (Hero)
+D 20:11:40.2981320 ZoneChangeList.UpdateDirtyZones() - m_id=1 START waiting for zone OPPOSING PLAY (Hero Power)
+D 20:11:41.2952710 ZoneChangeList.OnUpdateLayoutComplete() - m_id=1 END waiting for zone FRIENDLY PLAY (Hero)
+D 20:11:41.2953130 ZoneChangeList.OnUpdateLayoutComplete() - m_id=1 END waiting for zone FRIENDLY PLAY (Hero Power)
+D 20:11:41.2953430 ZoneChangeList.OnUpdateLayoutComplete() - m_id=1 END waiting for zone OPPOSING PLAY (Hero)
+D 20:11:41.2953640 ZoneChangeList.OnUpdateLayoutComplete() - m_id=1 END waiting for zone OPPOSING PLAY (Hero Power)
+D 20:11:41.3625650 ZoneChangeList.ProcessChanges() - processing index=5 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:11:41.3955060 ZoneChangeList.ProcessChanges() - processing index=8 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=2] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:11:41.4128170 ZoneChangeList.ProcessChanges() - processing index=11 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=3] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:11:41.4290160 ZoneChangeList.ProcessChanges() - processing index=14 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=4] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:11:41.4465100 ZoneChangeList.ProcessChanges() - processing index=19 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:11:41.4623830 ZoneChangeList.ProcessChanges() - processing index=22 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=2] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:11:41.4790600 ZoneChangeList.ProcessChanges() - processing index=25 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=3] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:12:57.0940570 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:12:58.6343830 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Goldshire Footman id=51 zone=PLAY zonePos=1 cardId=CS1_042 player=2] to OPPOSING PLAY
+D 20:12:58.6344270 ZoneChangeList.ProcessChanges() - id=4 local=False [name=Goldshire Footman id=51 zone=PLAY zonePos=1 cardId=CS1_042 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+D 20:12:58.6604300 ZoneChangeList.UpdateDirtyZones() - m_id=4 START waiting for zone OPPOSING PLAY
+D 20:12:59.6752800 ZoneChangeList.OnUpdateLayoutComplete() - m_id=4 END waiting for zone OPPOSING PLAY
+D 20:13:01.7099160 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:06.7940120 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Alexstrasza's Champion id=28 zone=HAND zonePos=3 cardId=AT_071 player=1] to FRIENDLY PLAY
+D 20:13:06.7940420 ZoneChangeList.ProcessChanges() - id=2 local=True [name=Alexstrasza's Champion id=28 zone=HAND zonePos=3 cardId=AT_071 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+D 20:13:06.8104090 ZoneChangeList.UpdateDirtyZones() - m_id=2 START waiting for zone FRIENDLY PLAY
+D 20:13:07.8258290 ZoneChangeList.OnUpdateLayoutComplete() - m_id=2 END waiting for zone FRIENDLY PLAY
+D 20:13:10.1121620 ZoneChangeList.ProcessChanges() - id=10 local=False [name=Goldshire Footman id=51 zone=GRAVEYARD zonePos=1 cardId=CS1_042 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+D 20:13:10.5259510 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:13.1642050 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wicked Knife id=70 zone=PLAY zonePos=0 cardId=CS2_082 player=2] to OPPOSING PLAY (Weapon)
+D 20:13:13.1642370 ZoneChangeList.ProcessChanges() - id=12 local=False [name=Wicked Knife id=70 zone=PLAY zonePos=0 cardId=CS2_082 player=2] zone from  -> OPPOSING PLAY (Weapon)
+D 20:13:13.1946040 ZoneChangeList.UpdateDirtyZones() - m_id=12 START waiting for zone OPPOSING PLAY (Weapon)
+D 20:13:14.2435070 ZoneChangeList.OnUpdateLayoutComplete() - m_id=12 END waiting for zone OPPOSING PLAY (Weapon)
+D 20:13:19.3767230 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:23.3774690 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Fiery War Axe id=9 zone=HAND zonePos=2 cardId=CS2_106 player=1] to FRIENDLY PLAY (Weapon)
+D 20:13:23.3775470 ZoneChangeList.ProcessChanges() - id=3 local=True [name=Fiery War Axe id=9 zone=HAND zonePos=2 cardId=CS2_106 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY (Weapon)
+D 20:13:23.4099320 ZoneChangeList.UpdateDirtyZones() - m_id=3 START waiting for zone FRIENDLY PLAY (Weapon)
+D 20:13:24.4589490 ZoneChangeList.OnUpdateLayoutComplete() - m_id=3 END waiting for zone FRIENDLY PLAY (Weapon)
+D 20:13:25.6274640 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:31.1971190 ZoneChangeList.ProcessChanges() - TRANSITIONING card [namD 20:12:57.0940570 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:12:58.6343830 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Goldshire Footman id=51 zone=PLAY zonePos=1 cardId=CS1_042 player=2] to OPPOSING PLAY
+D 20:12:58.6344270 ZoneChangeList.ProcessChanges() - id=4 local=False [name=Goldshire Footman id=51 zone=PLAY zonePos=1 cardId=CS1_042 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+D 20:12:58.6604300 ZoneChangeList.UpdateDirtyZones() - m_id=4 START waiting for zone OPPOSING PLAY
+D 20:12:59.6752800 ZoneChangeList.OnUpdateLayoutComplete() - m_id=4 END waiting for zone OPPOSING PLAY
+D 20:13:01.7099160 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:06.7940120 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Alexstrasza's Champion id=28 zone=HAND zonePos=3 cardId=AT_071 player=1] to FRIENDLY PLAY
+D 20:13:06.7940420 ZoneChangeList.ProcessChanges() - id=2 local=True [name=Alexstrasza's Champion id=28 zone=HAND zonePos=3 cardId=AT_071 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+D 20:13:06.8104090 ZoneChangeList.UpdateDirtyZones() - m_id=2 START waiting for zone FRIENDLY PLAY
+D 20:13:07.8258290 ZoneChangeList.OnUpdateLayoutComplete() - m_id=2 END waiting for zone FRIENDLY PLAY
+D 20:13:10.1121620 ZoneChangeList.ProcessChanges() - id=10 local=False [name=Goldshire Footman id=51 zone=GRAVEYARD zonePos=1 cardId=CS1_042 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+D 20:13:10.5259510 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:13.1642050 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wicked Knife id=70 zone=PLAY zonePos=0 cardId=CS2_082 player=2] to OPPOSING PLAY (Weapon)
+D 20:13:13.1642370 ZoneChangeList.ProcessChanges() - id=12 local=False [name=Wicked Knife id=70 zone=PLAY zonePos=0 cardId=CS2_082 player=2] zone from  -> OPPOSING PLAY (Weapon)
+D 20:13:13.1946040 ZoneChangeList.UpdateDirtyZones() - m_id=12 START waiting for zone OPPOSING PLAY (Weapon)
+D 20:13:14.2435070 ZoneChangeList.OnUpdateLayoutComplete() - m_id=12 END waiting for zone OPPOSING PLAY (Weapon)
+D 20:13:19.3767230 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:23.3774690 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Fiery War Axe id=9 zone=HAND zonePos=2 cardId=CS2_106 player=1] to FRIENDLY PLAY (Weapon)
+D 20:13:23.3775470 ZoneChangeList.ProcessChanges() - id=3 local=True [name=Fiery War Axe id=9 zone=HAND zonePos=2 cardId=CS2_106 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY (Weapon)
+D 20:13:23.4099320 ZoneChangeList.UpdateDirtyZones() - m_id=3 START waiting for zone FRIENDLY PLAY (Weapon)
+D 20:13:24.4589490 ZoneChangeList.OnUpdateLayoutComplete() - m_id=3 END waiting for zone FRIENDLY PLAY (Weapon)
+D 20:13:25.6274640 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:31.1971190 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bloodfen Raptor id=34 zone=PLAY zonePos=4 cardId=CS2_172 player=2] to OPPOSING PLAY
+D 20:13:31.1971560 ZoneChangeList.ProcessChanges() - id=19 local=False [name=e=Bloodfen Raptor id=34 zone=PLAY zonePos=4 cardId=CS2_172 player=2] to OPPOSING PLAY
+D 20:13:31.1971560 ZoneChangeList.ProcessChanges() - id=19 local=False [name=Bloodfen Raptor id=34 zone=PLAY zonePos=4 cardId=CS2_172 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+D 20:13:31.2105000 ZoneChangeList.UpdateDirtyZones() - m_id=19 START waiting for zone OPPOSING PLAY
+D 20:13:32.2253370 ZoneChangeList.OnUpdateLayoutComplete() - m_id=19 END waiting for zone OPPOSING PLAY
+D 20:13:37.4631150 ZoneChangeList.ProcessChanges() - id=20 local=False [name=Alexstrasza's Champion id=28 zone=GRAVEYARD zonePos=1 cardId=AT_071 player=1] zone from FRIENDLY PLAY -> FRIENDLY GRAVEYARD
+D 20:13:37.4770300 ZoneChangeList.ProcessChanges() - id=20 local=False [name=Wicked Knife id=70 zone=GRAVEYARD zonePos=0 cardId=CS2_082 player=2] zone from OPPOSING PLAY (Weapon) -> OPPOSING GRAVEYARD
+D 20:13:37.5767030 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:42.2096900 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Frothing Berserker id=6 zone=HAND zonePos=5 cardId=EX1_604 player=1] to FRIENDLY PLAY
+D 20:13:42.2097520 ZoneChangeList.ProcessChanges() - id=4 local=True [name=Frothing Berserker id=6 zone=HAND zonePos=5 cardId=EX1_604 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+D 20:13:42.2266570 ZoneChangeList.UpdateDirtyZones() - m_id=4 START waiting for zone FRIENDLY PLAY
+D 20:13:43.2250170 ZoneChangeList.OnUpdateLayoutComplete() - m_id=4 END waiting for zone FRIENDLY PLAY
+D 20:13:44.7260430 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:50.5774190 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bloodfen Raptor id=35 zone=PLAY zonePos=3 cardId=CS2_172 player=2] to OPPOSING PLAY
+D 20:13:50.5774670 ZoneChangeList.ProcessChanges() - id=27 local=False [name=Bloodfen Raptor id=35 zone=PLAY zonePos=3 cardId=CS2_172 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+D 20:13:50.5933700 ZoneChangeList.UpdateDirtyZones() - m_id=27 START waiting for zone OPPOSING PLAY
+D 20:13:51.6251800 ZoneChangeList.OnUpdateLayoutComplete() - m_id=27 END waiting for zone OPPOSING PLAY
+D 20:13:54.6923680 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wicked Knife id=73 zone=PLAY zonePos=0 cardId=CS2_082 player=2] to OPPOSING PLAY (Weapon)
+D 20:13:54.6923890 ZoneChangeList.ProcessChanges() - id=28 local=False [name=Wicked Knife id=73 zone=PLAY zonePos=0 cardId=CS2_082 player=2] zone from  -> OPPOSING PLAY (Weapon)
+D 20:13:54.7089170 ZoneChangeList.UpdateDirtyZones() - m_id=28 START waiting for zone OPPOSING PLAY (Weapon)
+D 20:13:55.7415820 ZoneChangeList.OnUpdateLayoutComplete() - m_id=28 END waiting for zone OPPOSING PLAY (Weapon)
+D 20:14:00.5292580 ZoneChangeList.ProcessChanges() - id=29 local=False [name=Bloodfen Raptor id=34 zone=GRAVEYARD zonePos=2 cardId=CS2_172 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+D 20:14:00.5436400 ZoneChangeList.ProcessChanges() - id=29 local=False [name=Frothing Berserker id=6 zone=GRAVEYARD zonePos=1 cardId=EX1_604 player=1] zone from FRIENDLY PLAY -> FRIENDLY GRAVEYARD
+D 20:14:03.8260700 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:14:08.4264690 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Twilight Guardian id=25 zone=HAND zonePos=5 cardId=AT_017 player=1] to FRIENDLY PLAY
+D 20:14:08.4265070 ZoneChangeList.ProcessChanges() - id=5 local=True [name=Twilight Guardian id=25 zone=HAND zonePos=5 cardId=AT_017 player=1] zone from FRIENBloodfen Raptor id=34 zone=PLAY zonePos=4 cardId=CS2_172 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+D 20:13:31.2105000 ZoneChangeList.UpdateDirtyZones() - m_id=19 START waiting for zone OPPOSING PLAY
+D 20:13:32.2253370 ZoneChangeList.OnUpdateLayoutComplete() - m_id=19 END waiting for zone OPPOSING PLAY
+D 20:13:37.4631150 ZoneChangeList.ProcessChanges() - id=20 local=False [name=Alexstrasza's Champion id=28 zone=GRAVEYARD zonePos=1 cardId=AT_071 player=1] zone from FRIENDLY PLAY -> FRIENDLY GRAVEYARD
+D 20:13:37.4770300 ZoneChangeList.ProcessChanges() - id=20 local=False [name=Wicked Knife id=70 zone=GRAVEYARD zonePos=0 cardId=CS2_082 player=2] zone from OPPOSING PLAY (Weapon) -> OPPOSING GRAVEYARD
+D 20:13:37.5767030 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:42.2096900 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Frothing Berserker id=6 zone=HAND zonePos=5 cardId=EX1_604 player=1] to FRIENDLY PLAY
+D 20:13:42.2097520 ZoneChangeList.ProcessChanges() - id=4 local=True [name=Frothing Berserker id=6 zone=HAND zonePos=5 cardId=EX1_604 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+D 20:13:42.2266570 ZoneChangeList.UpdateDirtyZones() - m_id=4 START waiting for zone FRIENDLY PLAY
+D 20:13:43.2250170 ZoneChangeList.OnUpdateLayoutComplete() - m_id=4 END waiting for zone FRIENDLY PLAY
+D 20:13:44.7260430 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:13:50.5774190 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bloodfen Raptor id=35 zone=PLAY zonePos=3 cardId=CS2_172 player=2] to OPPOSING PLAY
+D 20:13:50.5774670 ZoneChangeList.ProcessChanges() - id=27 local=False [name=Bloodfen Raptor id=35 zone=PLAY zonePos=3 cardId=CS2_172 player=2] zone from OPPOSING HAND -> OPPOSING PLAY
+D 20:13:50.5933700 ZoneChangeList.UpdateDirtyZones() - m_id=27 START waiting for zone OPPOSING PLAY
+D 20:13:51.6251800 ZoneChangeList.OnUpdateLayoutComplete() - m_id=27 END waiting for zone OPPOSING PLAY
+D 20:13:54.6923680 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Wicked Knife id=73 zone=PLAY zonePos=0 cardId=CS2_082 player=2] to OPPOSING PLAY (Weapon)
+D 20:13:54.6923890 ZoneChangeList.ProcessChanges() - id=28 local=False [name=Wicked Knife id=73 zone=PLAY zonePos=0 cardId=CS2_082 player=2] zone from  -> OPPOSING PLAY (Weapon)
+D 20:13:54.7089170 ZoneChangeList.UpdateDirtyZones() - m_id=28 START waiting for zone OPPOSING PLAY (Weapon)
+D 20:13:55.7415820 ZoneChangeList.OnUpdateLayoutComplete() - m_id=28 END waiting for zone OPPOSING PLAY (Weapon)
+D 20:14:00.5292580 ZoneChangeList.ProcessChanges() - id=29 local=False [name=Bloodfen Raptor id=34 zone=GRAVEYARD zonePos=2 cardId=CS2_172 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+D 20:14:00.5436400 ZoneChangeList.ProcessChanges() - id=29 local=False [name=Frothing Berserker id=6 zone=GRAVEYARD zonePos=1 cardId=EX1_604 player=1] zone from FRIENDLY PLAY -> FRIENDLY GRAVEYARD
+D 20:14:03.8260700 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:14:08.4264690 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Twilight Guardian id=25 zone=HAND zonePos=5 cardId=AT_017 player=1] to FRIENDLY PLAY
+D 20:14:08.4265070 ZoneChangeList.ProcessChanges() - id=5 local=True [name=Twilight Guardian id=25 zone=HAND zonePos=5 cardId=AT_017 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+D 20:14:08.4442090 ZoneChangeList.UpdateDirtyZones() - m_id=5 START waiting for zone FRIENDLY PLAY
+D 20:14:09.4585230 ZoneChangeList.OnUpDLY HAND -> FRIENDLY PLAY
+D 20:14:08.4442090 ZoneChangeList.UpdateDirtyZones() - m_id=5 START waiting for zone FRIENDLY PLAY
+D 20:14:09.4585230 ZoneChangeList.OnUpdateLayoutComplete() - m_id=5 END waiting for zone FRIENDLY PLAY
+D 20:14:12.6307230 ZoneChangeList.ProcessChanges() - id=33 local=False [name=Bloodfen Raptor id=35 zone=GRAVEYARD zonePos=1 cardId=CS2_172 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+D 20:14:12.7101240 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:14:17.0946140 ZoneChangeList.ProcessChanges() - id=37 local=False [name=Twilight Guardian id=25 zone=GRAVEYARD zonePos=1 cardId=AT_017 player=1] zone from FRIENDLY PLAY -> FRIENDLY GRAVEYARD
+D 20:14:21.5286690 ZoneChangeList.ProcessChanges() - id=38 local=False [name=Wicked Knife id=73 zone=GRAVEYARD zonePos=0 cardId=CS2_082 player=2] zone from OPPOSING PLAY (Weapon) -> OPPOSING GRAVEYARD
+D 20:14:21.6107130 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:14:26.8594700 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Twilight Drake id=14 zone=HAND zonePos=4 cardId=EX1_043 player=1] to FRIENDLY PLAY
+D 20:14:26.8595200 ZoneChangeList.ProcessChanges() - id=6 local=True [name=Twilight Drake id=14 zone=HAND zonePos=4 cardId=EX1_043 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+D 20:14:26.8768500 ZoneChangeList.UpdateDirtyZones() - m_id=6 START waiting for zone FRIENDLY PLAY
+D 20:14:27.8756750 ZoneChangeList.OnUpdateLayoutComplete() - m_id=6 END waiting for zone FRIENDLY PLAY
+dateLayoutComplete() - m_id=5 END waiting for zone FRIENDLY PLAY
+D 20:14:12.6307230 ZoneChangeList.ProcessChanges() - id=33 local=False [name=Bloodfen Raptor id=35 zone=GRAVEYARD zonePos=1 cardId=CS2_172 player=2] zone from OPPOSING PLAY -> OPPOSING GRAVEYARD
+D 20:14:12.7101240 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=3 cardId= name=The Innkeeper] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=The Innkeeper srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:14:17.0946140 ZoneChangeList.ProcessChanges() - id=37 local=False [name=Twilight Guardian id=25 zone=GRAVEYARD zonePos=1 cardId=AT_017 player=1] zone from FRIENDLY PLAY -> FRIENDLY GRAVEYARD
+D 20:14:21.5286690 ZoneChangeList.ProcessChanges() - id=38 local=False [name=Wicked Knife id=73 zone=GRAVEYARD zonePos=0 cardId=CS2_082 player=2] zone from OPPOSING PLAY (Weapon) -> OPPOSING GRAVEYARD
+D 20:14:21.6107130 ZoneChangeList.ProcessChanges() - processing index=2 change=powerTask=[power=[type=TAG_CHANGE entity=[id=2 cardId= name=brbcoffee] tag=NUM_CARDS_DRAWN_THIS_TURN value=1] complete=False] entity=brbcoffee srcZoneTag=INVALID srcPos= dstZoneTag=INVALID dstPos=
+D 20:14:26.8594700 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Twilight Drake id=14 zone=HAND zonePos=4 cardId=EX1_043 player=1] to FRIENDLY PLAY
+D 20:14:26.8595200 ZoneChangeList.ProcessChanges() - id=6 local=True [name=Twilight Drake id=14 zone=HAND zonePos=4 cardId=EX1_043 player=1] zone from FRIENDLY HAND -> FRIENDLY PLAY
+D 20:14:26.8768500 ZoneChangeList.UpdateDirtyZones() - m_id=6 START waiting for zone FRIENDLY PLAY
+D 20:14:27.8756750 ZoneChangeList.OnUpdateLayoutComplete() - m_id=6 END waiting for zone FRIENDLY PLAY
+D 20:14:30.0754790 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=PLAYSTATE value=LOST
+D 20:14:30.0758010 PowerTaskList.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=PLAYSTATE value=LOST

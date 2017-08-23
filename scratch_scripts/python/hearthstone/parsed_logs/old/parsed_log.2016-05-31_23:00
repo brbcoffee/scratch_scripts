@@ -1,0 +1,351 @@
+D 23:01:14.5603960 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=MULLIGAN_STATE value=DEALING
+D 23:01:14.5682830 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bilefin Tidehunter id=60 zone=HAND zonePos=0 cardId=OG_156 player=2] to FRIENDLY HAND
+D 23:01:14.5756290 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Darkshire Councilman id=51 zone=DECK zonePos=1 cardId=OG_113 player=2] to FRIENDLY DECK
+D 23:02:09.9728080 GameState.DebugPrintPower() - TAG_CHANGE Entity=Cuos tag=MULLIGAN_STATE value=DEALING
+D 23:02:10.2577490 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:02:10.2586410 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:02:10.2588600 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:02:10.2596030 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:02:11.5461780 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Imp Gang Boss id=63 zone=HAND zonePos=0 cardId=BRM_006 player=2] to FRIENDLY HAND
+D 23:02:15.3665590 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flame Imp id=57 zone=HAND zonePos=2 cardId=EX1_319 player=2] to FRIENDLY PLAY
+D 23:02:16.9222010 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:02:16.9222730 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:02:16.9223440 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:02:16.9225500 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:02:16.9227260 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:02:16.9228030 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:02:16.9229430 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:02:18.8078880 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:02:18.8114600 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=13 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 23:02:56.7601780 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=The Coin id=68 zone=PLAY zonePos=5 cardId=GAME_005 player=1] to 
+D 23:02:58.5896970 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=The Coin id=68 zone=GRAVEYARD zonePos=0 cardId=GAME_005 player=1] to OPPOSING GRAVEYARD
+D 23:02:59.6224400 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:02:59.6229330 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:02:59.6233700 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:02:59.6238040 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:02:59.6245950 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:02:59.6246890 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:02:59.6250980 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:03:00.7922990 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=24 cardId= type=INVALID zone=SECRET zonePos=4 player=1] to OPPOSING SECRET
+D 23:03:03.8384910 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:03:03.8453320 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Knife Juggler id=46 zone=HAND zonePos=0 cardId=NEW1_019 player=2] to FRIENDLY HAND
+D 23:03:07.9714480 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Flame Imp id=57 zone=PLAY zonePos=1 cardId=EX1_319 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:03:07.9730100 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Flame Imp id=57 zone=PLAY zonePos=1 cardId=EX1_319 player=2] tag=COST value=3
+D 23:03:07.9730580 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=NUM_OPTIONS_PLAYED_THIS_TURN value=1
+D 23:03:07.9732660 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Flame Imp id=57 zone=PLAY zonePos=1 cardId=EX1_319 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:03:10.2375010 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flame Imp id=57 zone=HAND zonePos=1 cardId=EX1_319 player=2] to FRIENDLY HAND
+D 23:03:13.2784720 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Freezing Trap id=24 zone=GRAVEYARD zonePos=0 cardId=EX1_611 player=1] to OPPOSING GRAVEYARD
+D 23:03:14.1720780 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bilefin Tidehunter id=60 zone=HAND zonePos=1 cardId=OG_156 player=2] to FRIENDLY PLAY
+D 23:03:15.9077430 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ooze id=69 zone=PLAY zonePos=2 cardId=OG_156a player=2] to FRIENDLY PLAY
+D 23:03:16.0052530 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:03:16.0058280 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:03:16.0061670 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:03:16.0065840 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:03:16.0071420 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:03:16.0072290 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:03:16.0074530 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:03:17.5210750 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:03:17.5265290 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=19 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 23:03:22.1454250 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=On the Hunt id=25 zone=PLAY zonePos=1 cardId=OG_061 player=1] to 
+D 23:03:24.7339290 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mastiff id=70 zone=PLAY zonePos=1 cardId=OG_061t player=1] to OPPOSING PLAY
+D 23:03:25.0035210 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:03:25.0036230 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:03:25.0037220 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:03:25.0039290 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:03:25.0041920 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:03:25.0042440 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:03:25.0044860 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:03:25.8548300 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=On the Hunt id=25 zone=GRAVEYARD zonePos=0 cardId=OG_061 player=1] to OPPOSING GRAVEYARD
+D 23:03:25.9120690 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bilefin Tidehunter id=60 zone=GRAVEYARD zonePos=1 cardId=OG_156 player=2] to FRIENDLY GRAVEYARD
+D 23:03:26.1711460 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:03:26.1847100 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Forbidden Ritual id=49 zone=HAND zonePos=0 cardId=OG_114 player=2] to FRIENDLY HAND
+D 23:03:37.8562860 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Knife Juggler id=46 zone=HAND zonePos=3 cardId=NEW1_019 player=2] to FRIENDLY PLAY
+D 23:03:40.0050200 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Possessed Villager id=52 zone=HAND zonePos=1 cardId=OG_241 player=2] to FRIENDLY PLAY
+D 23:03:45.3699360 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Ooze id=69 zone=PLAY zonePos=3 cardId=OG_156a player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:03:45.3705960 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:03:45.3707640 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Ooze id=69 zone=PLAY zonePos=3 cardId=OG_156a player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:03:47.2378770 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:03:47.2380640 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:03:47.2383640 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:03:47.2387710 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:03:47.2396320 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:03:47.2397290 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:03:47.2399640 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:03:47.2401640 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:03:47.2459710 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=18 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 23:03:55.0050850 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Mastiff id=70 zone=PLAY zonePos=1 cardId=OG_061t player=1] EffectCardId= EffectIndex=-1 Target=[name=Ooze id=69 zone=PLAY zonePos=3 cardId=OG_156a player=2]
+D 23:03:55.0063860 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:03:55.0065440 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Mastiff id=70 zone=PLAY zonePos=1 cardId=OG_061t player=1] EffectCardId= EffectIndex=-1 Target=[name=Ooze id=69 zone=PLAY zonePos=3 cardId=OG_156a player=2]
+D 23:03:56.2910490 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ooze id=69 zone=GRAVEYARD zonePos=3 cardId=OG_156a player=2] to FRIENDLY GRAVEYARD
+D 23:03:56.3025830 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Mastiff id=70 zone=GRAVEYARD zonePos=1 cardId=OG_061t player=1] to OPPOSING GRAVEYARD
+D 23:03:56.3762040 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=King's Elekk id=19 zone=PLAY zonePos=4 cardId=AT_058 player=1] to OPPOSING PLAY
+D 23:03:57.7294570 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=71 cardId= type=INVALID zone=DECK zonePos=0 player=1] to OPPOSING DECK
+D 23:03:57.7295920 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=72 cardId= type=INVALID zone=DECK zonePos=0 player=2] to FRIENDLY DECK
+D 23:03:57.7374410 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Fiery Bat id=71 zone=DECK zonePos=0 cardId=OG_179 player=1] to 
+D 23:03:57.7533860 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Dark Peddler id=72 zone=DECK zonePos=0 cardId=LOE_023 player=2] to 
+D 23:04:04.0182400 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:04:04.0183230 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:04:04.0193410 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:04:04.0195710 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:04:04.0200470 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:04:04.0201520 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:04:04.0207160 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:04:04.1351670 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Fiery Bat id=71 zone=SETASIDE zonePos=0 cardId=OG_179 player=1] to 
+D 23:04:04.1353920 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Dark Peddler id=72 zone=SETASIDE zonePos=0 cardId=LOE_023 player=2] to 
+D 23:04:04.1684430 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:04:04.1754850 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Defender of Argus id=34 zone=HAND zonePos=0 cardId=EX1_093 player=2] to FRIENDLY HAND
+D 23:04:08.6209950 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Forbidden Ritual id=49 zone=HAND zonePos=3 cardId=OG_114 player=2] to 
+D 23:04:08.9425100 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=73 zone=PLAY zonePos=3 cardId=OG_114a player=2] to FRIENDLY PLAY
+D 23:04:10.7246320 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=74 zone=PLAY zonePos=4 cardId=OG_114a player=2] to FRIENDLY PLAY
+D 23:04:12.8229360 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=75 zone=PLAY zonePos=5 cardId=OG_114a player=2] to FRIENDLY PLAY
+D 23:04:14.9215630 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=76 zone=PLAY zonePos=6 cardId=OG_114a player=2] to FRIENDLY PLAY
+D 23:04:16.9017840 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=52 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:04:16.9026140 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:04:17.0351870 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Forbidden Ritual id=49 zone=GRAVEYARD zonePos=0 cardId=OG_114 player=2] to FRIENDLY GRAVEYARD
+D 23:04:17.0721810 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=King's Elekk id=19 zone=GRAVEYARD zonePos=1 cardId=AT_058 player=1] to OPPOSING GRAVEYARD
+D 23:04:17.1345830 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=52 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:04:18.0027010 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:04:18.0042540 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:04:18.0044540 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:04:19.5859020 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:04:19.5860320 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:04:19.5861400 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:04:19.5864660 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:04:19.5868620 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:04:19.5869400 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:04:19.5871620 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:04:19.5873090 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:04:19.5923130 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=12 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 23:04:26.6568640 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Infested Wolf id=13 zone=PLAY zonePos=3 cardId=OG_216 player=1] to OPPOSING PLAY
+D 23:04:28.0849670 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:04:28.0850840 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:04:28.0852160 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:04:28.0858420 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:04:28.0868220 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:04:28.0869090 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:04:28.0871070 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:04:29.6855620 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:04:29.6937150 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Possessed Villager id=36 zone=HAND zonePos=0 cardId=OG_241 player=2] to FRIENDLY HAND
+D 23:04:43.8184540 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Defender of Argus id=34 zone=HAND zonePos=3 cardId=EX1_093 player=2] to FRIENDLY PLAY
+D 23:04:58.5661680 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=74 zone=PLAY zonePos=5 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:04:58.5669060 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:04:58.5672000 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=74 zone=PLAY zonePos=5 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:05:04.4837090 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=73 zone=PLAY zonePos=3 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Infested Wolf id=13 zone=PLAY zonePos=1 cardId=OG_216 player=1]
+D 23:05:04.4869170 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:04.4875540 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=73 zone=PLAY zonePos=3 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Infested Wolf id=13 zone=PLAY zonePos=1 cardId=OG_216 player=1]
+D 23:05:05.2253930 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=73 zone=GRAVEYARD zonePos=3 cardId=OG_114a player=2] to FRIENDLY GRAVEYARD
+D 23:05:05.2331380 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Infested Wolf id=13 zone=GRAVEYARD zonePos=1 cardId=OG_216 player=1] to OPPOSING GRAVEYARD
+D 23:05:05.3179630 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Spider id=79 zone=PLAY zonePos=1 cardId=OG_216a player=1] to OPPOSING PLAY
+D 23:05:05.3536210 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Spider id=80 zone=PLAY zonePos=1 cardId=OG_216a player=1] to OPPOSING PLAY
+D 23:05:07.1828700 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=52 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Spider id=80 zone=PLAY zonePos=1 cardId=OG_216a player=1]
+D 23:05:07.1858480 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:07.1863200 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=52 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Spider id=80 zone=PLAY zonePos=1 cardId=OG_216a player=1]
+D 23:05:07.9242510 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Possessed Villager id=52 zone=GRAVEYARD zonePos=2 cardId=OG_241 player=2] to FRIENDLY GRAVEYARD
+D 23:05:07.9331150 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Spider id=80 zone=GRAVEYARD zonePos=1 cardId=OG_216a player=1] to OPPOSING GRAVEYARD
+D 23:05:08.0192010 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shadowbeast id=81 zone=PLAY zonePos=2 cardId=OG_241a player=2] to FRIENDLY PLAY
+D 23:05:14.9015180 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Possessed Villager id=36 zone=HAND zonePos=3 cardId=OG_241 player=2] to FRIENDLY PLAY
+D 23:05:17.4528350 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Spider id=79 zone=GRAVEYARD zonePos=1 cardId=OG_216a player=1] to OPPOSING GRAVEYARD
+D 23:05:20.0661830 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=75 zone=PLAY zonePos=6 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:05:20.0669590 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:20.0670890 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=75 zone=PLAY zonePos=6 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:05:21.4333330 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=76 zone=PLAY zonePos=7 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:05:21.4340360 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:21.4342470 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=76 zone=PLAY zonePos=7 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:05:22.7326430 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:05:22.7334320 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:22.7336360 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:05:24.4155230 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:05:24.4157600 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:05:24.4159410 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:05:24.4163060 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:05:24.4173450 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:05:24.4174980 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:05:24.4177980 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:24.4179630 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:05:24.4240570 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=15 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 23:05:34.0422060 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Tundra Rhino id=18 zone=PLAY zonePos=3 cardId=DS1_178 player=1] to OPPOSING PLAY
+D 23:05:34.0845390 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Charge id=82 zone=PLAY zonePos=0 cardId=DS1_178e player=1] to 
+D 23:05:35.8835200 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1] EffectCardId= EffectIndex=-1 Target=[name=Icky Tentacle id=74 zone=PLAY zonePos=5 cardId=OG_114a player=2]
+D 23:05:35.8852850 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:37.0829210 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1] EffectCardId= EffectIndex=-1 Target=[name=Icky Tentacle id=74 zone=PLAY zonePos=5 cardId=OG_114a player=2]
+D 23:05:37.3162630 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:05:37.3164360 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:05:37.3165750 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:05:37.3170820 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:05:37.3190170 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:05:37.3191170 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:05:37.3196010 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:38.3934840 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=74 zone=GRAVEYARD zonePos=5 cardId=OG_114a player=2] to FRIENDLY GRAVEYARD
+D 23:05:38.4660340 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:05:38.4699740 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flame Imp id=45 zone=HAND zonePos=0 cardId=EX1_319 player=2] to FRIENDLY HAND
+D 23:05:49.3889260 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sea Giant id=50 zone=HAND zonePos=0 cardId=EX1_586 player=2] to FRIENDLY HAND
+D 23:05:53.9333950 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sea Giant id=50 zone=HAND zonePos=4 cardId=EX1_586 player=2] to FRIENDLY PLAY
+D 23:05:58.4812270 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=76 zone=PLAY zonePos=6 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:05:58.4822800 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:58.4824360 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=76 zone=PLAY zonePos=6 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:05:59.2243540 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=76 zone=GRAVEYARD zonePos=6 cardId=OG_114a player=2] to FRIENDLY GRAVEYARD
+D 23:06:01.3011670 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flame Imp id=45 zone=HAND zonePos=3 cardId=EX1_319 player=2] to FRIENDLY PLAY
+D 23:06:07.4153080 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=75 zone=PLAY zonePos=5 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:06:07.4165780 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:07.4167660 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=75 zone=PLAY zonePos=5 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:06:08.1675120 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=75 zone=GRAVEYARD zonePos=5 cardId=OG_114a player=2] to FRIENDLY GRAVEYARD
+D 23:06:10.2153620 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Shadowbeast id=81 zone=PLAY zonePos=2 cardId=OG_241a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:06:10.2171820 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Charge id=82 zone=PLAY zonePos=0 cardId=DS1_178e player=1] tag=ZONE value=GRAVEYARD
+D 23:06:10.2172510 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Charge id=82 zone=PLAY zonePos=0 cardId=DS1_178e player=1] tag=323 value=0
+D 23:06:10.2173010 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Charge id=82 zone=PLAY zonePos=0 cardId=DS1_178e player=1] tag=324 value=0
+D 23:06:10.2173480 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:10.2175130 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Shadowbeast id=81 zone=PLAY zonePos=2 cardId=OG_241a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:06:10.9720610 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shadowbeast id=81 zone=GRAVEYARD zonePos=2 cardId=OG_241a player=2] to FRIENDLY GRAVEYARD
+D 23:06:10.9812650 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Tundra Rhino id=18 zone=GRAVEYARD zonePos=1 cardId=DS1_178 player=1] to OPPOSING GRAVEYARD
+D 23:06:11.5310860 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=36 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:11.5315320 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:11.5316650 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=36 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:12.4324120 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Defender of Argus id=34 zone=PLAY zonePos=3 cardId=EX1_093 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:12.4341520 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:12.4343610 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Defender of Argus id=34 zone=PLAY zonePos=3 cardId=EX1_093 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:13.4307970 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:13.4315820 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:13.4318360 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:14.8989820 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:06:14.8990790 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:06:14.8992660 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:06:14.8994580 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:06:14.8998820 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:06:14.8999600 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:06:14.9002180 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:14.9003680 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:06:14.9053980 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=28 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 23:06:20.2732120 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Hunter's Mark id=9 zone=PLAY zonePos=2 cardId=CS2_084 player=1] to 
+D 23:06:23.4014210 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Hunter's Mark id=83 zone=PLAY zonePos=0 cardId=CS2_084e player=1] to 
+D 23:06:23.4328640 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Hunter's Mark id=9 zone=GRAVEYARD zonePos=0 cardId=CS2_084 player=1] to OPPOSING GRAVEYARD
+D 23:06:24.3039550 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Explosive Shot id=12 zone=PLAY zonePos=2 cardId=EX1_537 player=1] to 
+D 23:06:26.2645800 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:06:26.2647190 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:06:26.2648560 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:06:26.2650760 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:06:26.2656430 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:06:26.2657400 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:06:26.2664660 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:27.2998000 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Explosive Shot id=12 zone=GRAVEYARD zonePos=0 cardId=EX1_537 player=1] to OPPOSING GRAVEYARD
+D 23:06:27.3540080 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sea Giant id=50 zone=GRAVEYARD zonePos=5 cardId=EX1_586 player=2] to FRIENDLY GRAVEYARD
+D 23:06:27.3638790 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flame Imp id=45 zone=GRAVEYARD zonePos=4 cardId=EX1_319 player=2] to FRIENDLY GRAVEYARD
+D 23:06:28.3310370 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:06:28.3366110 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bilefin Tidehunter id=41 zone=HAND zonePos=0 cardId=OG_156 player=2] to FRIENDLY HAND
+D 23:06:33.5351230 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Dark Peddler id=54 zone=HAND zonePos=0 cardId=LOE_023 player=2] to FRIENDLY HAND
+D 23:06:36.2493270 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Dark Peddler id=54 zone=HAND zonePos=4 cardId=LOE_023 player=2] to FRIENDLY PLAY
+D 23:06:45.8295510 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=COMBO_ACTIVE value=1
+D 23:06:45.8295630 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=NUM_OPTIONS_PLAYED_THIS_TURN value=2
+D 23:06:45.8295850 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Shifter Zerus id=85 zone=SETASIDE zonePos=0 cardId=OG_123 player=2] tag=ZONE value=HAND
+D 23:06:45.8296030 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Shifter Zerus id=85 zone=SETASIDE zonePos=0 cardId=OG_123 player=2] tag=ZONE_POSITION value=4
+D 23:06:45.8296430 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Shifter Zerus id=85 zone=SETASIDE zonePos=0 cardId=OG_123 player=2] tag=DISPLAYED_CREATOR value=54
+D 23:06:46.8807590 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shifter Zerus id=85 zone=HAND zonePos=0 cardId=OG_123 player=2] to FRIENDLY HAND
+D 23:06:49.7497290 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bilefin Tidehunter id=41 zone=HAND zonePos=3 cardId=OG_156 player=2] to FRIENDLY PLAY
+D 23:06:51.4809520 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ooze id=87 zone=PLAY zonePos=6 cardId=OG_156a player=2] to FRIENDLY PLAY
+D 23:06:53.5791000 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Defender of Argus id=34 zone=PLAY zonePos=3 cardId=EX1_093 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:53.5796420 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:54.4802080 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=36 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:54.4818030 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:55.1972970 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Defender of Argus id=34 zone=PLAY zonePos=3 cardId=EX1_093 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:55.9494660 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=36 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:57.2965240 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:57.2968970 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:57.2969810 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:58.1470840 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shifter Zerus id=85 zone=HAND zonePos=3 cardId=OG_123 player=2] to FRIENDLY PLAY
+D 23:06:58.8350070 GameState.DebugPrintPower() - TAG_CHANGE Entity=Cuos tag=PLAYSTATE value=LOST
+D 23:06:58.8350200 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=PLAYSTATE value=WON
+D 23:06:58.8350340 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=NEXT_STEP value=FINAL_WRAPUP
+D 23:06:58.8350480 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=FINAL_WRAPUP
+D 23:06:58.8350920 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=FINAL_GAMEOVER
+D 23:06:58.8351060 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STATE value=COMPLETE
+D 23:06:58.8467720 GameState.DebugPrintPower() - TAG_CHANGE Entity=Cuos tag=GOLD_REWARD_STATE value=1
+D 23:06:58.8467980 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=GOLD_REWARD_STATE value=1
+=MAIN_CLEANUP
+D 23:05:37.3165750 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:05:37.3170820 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:05:37.3190170 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:05:37.3191170 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:05:37.3196010 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:38.3934840 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=74 zone=GRAVEYARD zonePos=5 cardId=OG_114a player=2] to FRIENDLY GRAVEYARD
+D 23:05:38.4660340 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:05:38.4699740 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flame Imp id=45 zone=HAND zonePos=0 cardId=EX1_319 player=2] to FRIENDLY HAND
+D 23:05:49.3889260 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sea Giant id=50 zone=HAND zonePos=0 cardId=EX1_586 player=2] to FRIENDLY HAND
+D 23:05:53.9333950 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sea Giant id=50 zone=HAND zonePos=4 cardId=EX1_586 player=2] to FRIENDLY PLAY
+D 23:05:58.4812270 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=76 zone=PLAY zonePos=6 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:05:58.4822800 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:05:58.4824360 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=76 zone=PLAY zonePos=6 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:05:59.2243540 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=76 zone=GRAVEYARD zonePos=6 cardId=OG_114a player=2] to FRIENDLY GRAVEYARD
+D 23:06:01.3011670 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flame Imp id=45 zone=HAND zonePos=3 cardId=EX1_319 player=2] to FRIENDLY PLAY
+D 23:06:07.4153080 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=75 zone=PLAY zonePos=5 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:06:07.4165780 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:07.4167660 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Icky Tentacle id=75 zone=PLAY zonePos=5 cardId=OG_114a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:06:08.1675120 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Icky Tentacle id=75 zone=GRAVEYARD zonePos=5 cardId=OG_114a player=2] to FRIENDLY GRAVEYARD
+D 23:06:10.2153620 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Shadowbeast id=81 zone=PLAY zonePos=2 cardId=OG_241a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:06:10.2171820 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Charge id=82 zone=PLAY zonePos=0 cardId=DS1_178e player=1] tag=ZONE value=GRAVEYARD
+D 23:06:10.2172510 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Charge id=82 zone=PLAY zonePos=0 cardId=DS1_178e player=1] tag=323 value=0
+D 23:06:10.2173010 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Charge id=82 zone=PLAY zonePos=0 cardId=DS1_178e player=1] tag=324 value=0
+D 23:06:10.2173480 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:10.2175130 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Shadowbeast id=81 zone=PLAY zonePos=2 cardId=OG_241a player=2] EffectCardId= EffectIndex=-1 Target=[name=Tundra Rhino id=18 zone=PLAY zonePos=1 cardId=DS1_178 player=1]
+D 23:06:10.9720610 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shadowbeast id=81 zone=GRAVEYARD zonePos=2 cardId=OG_241a player=2] to FRIENDLY GRAVEYARD
+D 23:06:10.9812650 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Tundra Rhino id=18 zone=GRAVEYARD zonePos=1 cardId=DS1_178 player=1] to OPPOSING GRAVEYARD
+D 23:06:11.5310860 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=36 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:11.5315320 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:11.5316650 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=36 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:12.4324120 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Defender of Argus id=34 zone=PLAY zonePos=3 cardId=EX1_093 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:12.4341520 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:12.4343610 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Defender of Argus id=34 zone=PLAY zonePos=3 cardId=EX1_093 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:13.4307970 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:13.4315820 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:13.4318360 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:14.8989820 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:06:14.8990790 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:06:14.8992660 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:06:14.8994580 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:06:14.8998820 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:06:14.8999600 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:06:14.9002180 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:14.9003680 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:06:14.9053980 ZoneChangeList.ProcessChanges() - TRANSITIONING card [id=28 cardId= type=INVALID zone=HAND zonePos=0 player=1] to OPPOSING HAND
+D 23:06:20.2732120 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Hunter's Mark id=9 zone=PLAY zonePos=2 cardId=CS2_084 player=1] to 
+D 23:06:23.4014210 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Hunter's Mark id=83 zone=PLAY zonePos=0 cardId=CS2_084e player=1] to 
+D 23:06:23.4328640 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Hunter's Mark id=9 zone=GRAVEYARD zonePos=0 cardId=CS2_084 player=1] to OPPOSING GRAVEYARD
+D 23:06:24.3039550 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Explosive Shot id=12 zone=PLAY zonePos=2 cardId=EX1_537 player=1] to 
+D 23:06:26.2645800 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:06:26.2647190 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_CLEANUP
+D 23:06:26.2648560 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_NEXT
+D 23:06:26.2650760 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_READY
+D 23:06:26.2656430 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START_TRIGGERS
+D 23:06:26.2657400 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_START
+D 23:06:26.2664660 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:27.2998000 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Explosive Shot id=12 zone=GRAVEYARD zonePos=0 cardId=EX1_537 player=1] to OPPOSING GRAVEYARD
+D 23:06:27.3540080 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Sea Giant id=50 zone=GRAVEYARD zonePos=5 cardId=EX1_586 player=2] to FRIENDLY GRAVEYARD
+D 23:06:27.3638790 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Flame Imp id=45 zone=GRAVEYARD zonePos=4 cardId=EX1_319 player=2] to FRIENDLY GRAVEYARD
+D 23:06:28.3310370 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_END
+D 23:06:28.3366110 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bilefin Tidehunter id=41 zone=HAND zonePos=0 cardId=OG_156 player=2] to FRIENDLY HAND
+D 23:06:33.5351230 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Dark Peddler id=54 zone=HAND zonePos=0 cardId=LOE_023 player=2] to FRIENDLY HAND
+D 23:06:36.2493270 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Dark Peddler id=54 zone=HAND zonePos=4 cardId=LOE_023 player=2] to FRIENDLY PLAY
+D 23:06:45.8295510 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=COMBO_ACTIVE value=1
+D 23:06:45.8295630 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=NUM_OPTIONS_PLAYED_THIS_TURN value=2
+D 23:06:45.8295850 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Shifter Zerus id=85 zone=SETASIDE zonePos=0 cardId=OG_123 player=2] tag=ZONE value=HAND
+D 23:06:45.8296030 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Shifter Zerus id=85 zone=SETASIDE zonePos=0 cardId=OG_123 player=2] tag=ZONE_POSITION value=4
+D 23:06:45.8296430 GameState.DebugPrintPower() - TAG_CHANGE Entity=[name=Shifter Zerus id=85 zone=SETASIDE zonePos=0 cardId=OG_123 player=2] tag=DISPLAYED_CREATOR value=54
+D 23:06:46.8807590 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shifter Zerus id=85 zone=HAND zonePos=0 cardId=OG_123 player=2] to FRIENDLY HAND
+D 23:06:49.7497290 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Bilefin Tidehunter id=41 zone=HAND zonePos=3 cardId=OG_156 player=2] to FRIENDLY PLAY
+D 23:06:51.4809520 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Ooze id=87 zone=PLAY zonePos=6 cardId=OG_156a player=2] to FRIENDLY PLAY
+D 23:06:53.5791000 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Defender of Argus id=34 zone=PLAY zonePos=3 cardId=EX1_093 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:53.5796420 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:54.4802080 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=36 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:54.4818030 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:55.1972970 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Defender of Argus id=34 zone=PLAY zonePos=3 cardId=EX1_093 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:55.9494660 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Possessed Villager id=36 zone=PLAY zonePos=2 cardId=OG_241 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:57.2965240 GameState.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:57.2968970 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=MAIN_ACTION
+D 23:06:57.2969810 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=ATTACK Entity=[name=Knife Juggler id=46 zone=PLAY zonePos=1 cardId=NEW1_019 player=2] EffectCardId= EffectIndex=-1 Target=[name=Rexxar id=64 zone=PLAY zonePos=0 cardId=HERO_05 player=1]
+D 23:06:58.1470840 ZoneChangeList.ProcessChanges() - TRANSITIONING card [name=Shifter Zerus id=85 zone=HAND zonePos=3 cardId=OG_123 player=2] to FRIENDLY PLAY
+D 23:06:58.8350070 GameState.DebugPrintPower() - TAG_CHANGE Entity=Cuos tag=PLAYSTATE value=LOST
+D 23:06:58.8350200 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=PLAYSTATE value=WON
+D 23:06:58.8350340 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=NEXT_STEP value=FINAL_WRAPUP
+D 23:06:58.8350480 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=FINAL_WRAPUP
+D 23:06:58.8350920 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=FINAL_GAMEOVER
+D 23:06:58.8351060 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STATE value=COMPLETE
+D 23:06:58.8467720 GameState.DebugPrintPower() - TAG_CHANGE Entity=Cuos tag=GOLD_REWARD_STATE value=1
+D 23:06:58.8467980 GameState.DebugPrintPower() - TAG_CHANGE Entity=brbcoffee tag=GOLD_REWARD_STATE value=1

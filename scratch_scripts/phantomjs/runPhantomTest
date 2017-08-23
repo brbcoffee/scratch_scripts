@@ -1,0 +1,53 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+# Simple wrapper script for phantomjs tests
+
+my $phantomjs = "./phantomjs";
+#my $phantomjsArgs = "--load-images=no --cookies-file=/usr/lib/nagios/git/phantomjs/cookies.txt";
+my $phantomjsArgs = "--ssl-protocol=any --load-images=no --cookies-file=/usr/lib/nagios/git/phantomjs/cookies.txt";
+my $phantomjsAdditionalArgs = "";
+
+if (-x '/usr/local/phantomjs/bin/phantomjs') {
+    $phantomjs = '/usr/local/phantomjs/bin/phantomjs';
+}
+
+my $testPlan = $ARGV[0];
+my $target = $ARGV[1];
+$phantomjsAdditionalArgs = $ARGV[2] if ($ARGV[2]);
+
+#print "calling: $phantomjs $phantomjsArgs $phantomjsAdditionalArgs $testPlan $target\n\n";
+
+my $testResult = `$phantomjs $phantomjsArgs $phantomjsAdditionalArgs $testPlan $target`;
+
+my @lines = split ("\n",$testResult);
+
+my $status;
+my $output;
+my $testResults;
+
+foreach my $line(@lines) {
+    if ($line =~ /^(\S+)\spasses.*fails.*errors/) {
+        $output = $line;
+        # Strip ANSI color codes
+        $output =~ s/\e\[[\d;]*[a-zA-Z]//g;
+        if ($line =~ /FAILURE/) {
+            $status = 2;
+        } elsif ($line =~ /OK/) {
+            $status = 0;
+        }
+    }
+    if ($line =~ /asynchronous test/) {
+        $testResults .= $line."\n";
+    }
+}
+
+if (!defined $status) {
+    $status = 2;
+    $output = "Test failed to execute\n";
+}
+
+print $output."\n";
+print $testResults if defined $testResults;
+exit $status;
